@@ -25,6 +25,7 @@ export interface GameEU {
   sorting_title: string;
   title: string;
   type: string;
+  /** the url path of the game on the eShop website - does not include domain **/
   url: string;
   add_on_content_b: boolean;
   club_nintendo: boolean;
@@ -51,6 +52,7 @@ export interface GameEU {
   system_names_txt: string[];
   system_type: string[];
   title_extras_txt: string[];
+  popularity: number;
 }
 
 /** Additional options for the [[getQueriedGamesAmerica]] method  */
