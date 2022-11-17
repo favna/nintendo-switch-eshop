@@ -1,14 +1,13 @@
-import { npmToPnpm } from '@sapphire/docusaurus-plugin-npm2yarn2pnpm';
+import { npmToPnpm, npmToYarn } from '@sapphire/docusaurus-plugin-npm2yarn2pnpm';
 import TabItem from '@theme/TabItem';
 import Tabs from '@theme/Tabs';
-import { convertToYarn } from '@armano/npm-to-yarn';
 import React, { FC } from 'react';
 import InstallTabButton from './InstallTabButton';
 import styles from './InstallTabs.module.css';
 
 const InstallTabs: FC = () => {
   const npmInstallCommand = 'npm install nintendo-switch-eshop';
-  const yarnInstallCommand = convertToYarn(npmInstallCommand);
+  const yarnInstallCommand = npmToYarn(npmInstallCommand);
   const pnpmInstallCommand = npmToPnpm(npmInstallCommand);
 
   const handleClickInstallButton = async (command: string) => {
