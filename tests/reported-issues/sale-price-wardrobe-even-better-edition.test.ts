@@ -10,7 +10,6 @@ describe('Sale price for The Wardrobe Even Better Edition', () => {
     const zerothEntry = data.at(0);
     expect(zerothEntry).toBeDefined();
 
-    expect(zerothEntry!.salePrice).toEqual(expect.any(Number));
     expect(zerothEntry!.price).toEqual(expect.any(Object));
   });
 });
