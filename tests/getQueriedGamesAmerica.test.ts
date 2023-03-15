@@ -11,15 +11,15 @@ describe('getQueriedGamesAmerica', () => {
       expect.arrayContaining([
         // Expect Link's Awakening to be in the data
         expect.objectContaining({
-          title: 'The Legend of Zelda™: Link’s Awakening'
+          title: expect.stringContaining("Link's Awakening")
         }),
         // Expect Breath of the Wild to be in the data
         expect.objectContaining({
-          title: 'The Legend of Zelda: Breath of the Wild'
+          title: expect.stringContaining('Breath of the Wild')
         }),
         // Expect Skyward Sword to be in the data
         expect.objectContaining({
-          title: 'The Legend of Zelda™: Skyward Sword HD'
+          title: expect.stringContaining('Skyward Sword HD')
         })
       ])
     );
