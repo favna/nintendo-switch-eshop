@@ -12,13 +12,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Project
-        uses: actions/checkout@1e204e9a9253d643386038d443f96446fa156a97 # renovate: tag=v2
+        uses: actions/checkout@v3
       - name: Add problem matcher
         run: echo "::add-matcher::.github/problemMatchers/eslint.json"
-      - name: Use Node.js v16
-        uses: actions/setup-node@270253e841af726300e85d718a5f606959b2903c # renovate: tag=v2
+      - name: Use Node.js v18
+        uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
           cache: yarn
       - name: Install Dependencies
         run: yarn --immutable
@@ -30,16 +30,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Project
-        uses: actions/checkout@1e204e9a9253d643386038d443f96446fa156a97 # renovate: tag=v2
+        uses: actions/checkout@v3
       - name: Add problem matcher
         run: echo "::add-matcher::.github/problemMatchers/tsc.json"
-      - name: Use Node.js v16
-        uses: actions/setup-node@270253e841af726300e85d718a5f606959b2903c # renovate: tag=v2
+      - name: Use Node.js v18
+        uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
           cache: yarn
       - name: Install Dependencies
         run: yarn --immutable
+      - name: Typecheck code
+        run: yarn typecheck
       - name: Build Code
         run: yarn build
 
@@ -48,7 +50,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@1e204e9a9253d643386038d443f96446fa156a97 # renovate: tag=v2
+        uses: actions/checkout@v3
 
       # Initializes the CodeQL tools for scanning.
       - name: Initialize CodeQL
@@ -64,11 +66,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Project
-        uses: actions/checkout@1e204e9a9253d643386038d443f96446fa156a97 # renovate: tag=v2
-      - name: Use Node.js v16
-        uses: actions/setup-node@270253e841af726300e85d718a5f606959b2903c # renovate: tag=v2
+        uses: actions/checkout@v3
+      - name: Use Node.js v18
+        uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
           cache: yarn
       - name: Install Dependencies
         run: yarn --immutable

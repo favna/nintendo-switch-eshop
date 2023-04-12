@@ -42,8 +42,8 @@ export type {
   Nsuid,
   PriceResponse,
   QueriedGameResult,
-  QueriedGamesAmericaOptions,
   QueriedGameUS,
+  QueriedGamesAmericaOptions,
   TitleData
 } from './lib/utils/interfaces';
 export { EshopError } from './lib/utils/utils';

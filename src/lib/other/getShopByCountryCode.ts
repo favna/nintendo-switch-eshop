@@ -1,5 +1,5 @@
 import { Result } from '@sapphire/result';
-import { countries, Country } from 'country-data';
+import { countries, type Country } from 'country-data';
 import type { Region } from '../utils/constants';
 import type { EShop, PriceResponse } from '../utils/interfaces';
 import { getPrices } from './getPrices';

@@ -1,11 +1,7 @@
 {
   "extends": "../tsconfig.base.json",
   "compilerOptions": {
-    "rootDir": ".",
-    "noEmit": true,
-    "incremental": false,
     "types": ["vitest/globals"]
   },
-  "include": ["."],
-  "references": [{ "path": "../src" }]
+  "include": ["."]
 }

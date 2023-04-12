@@ -2,11 +2,13 @@
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "allowJs": true,
-    "checkJs": true
+    "checkJs": true,
+    "types": ["vitest/globals"]
   },
   "include": [
     "src",
     "tests",
+    "tsup.config.ts",
     "vitest.config.ts",
     "documentation/src",
     "documentation/docusaurus.config.js",
