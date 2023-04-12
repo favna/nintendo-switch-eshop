@@ -7,21 +7,12 @@ describe('getQueriedGamesAmerica', () => {
     expect(data).toEqual(expect.any(Object));
     expect(data.length).toBeGreaterThanOrEqual(20);
 
-    expect(data).toEqual(
-      expect.arrayContaining([
-        // Expect Link's Awakening to be in the data
-        expect.objectContaining({
-          title: expect.stringContaining("Link's Awakening")
-        }),
-        // Expect Breath of the Wild to be in the data
-        expect.objectContaining({
-          title: expect.stringContaining('Breath of the Wild')
-        }),
-        // Expect Skyward Sword to be in the data
-        expect.objectContaining({
-          title: expect.stringContaining('Skyward Sword HD')
-        })
-      ])
-    );
+    const tearsOfTheKingdomEntry = data.find((dt) => dt.title.toLowerCase().includes('tears of the kingdom'));
+    const breathOfTheWildEntry = data.find((dt) => dt.title.toLowerCase().includes('breath of the wild'));
+    const skywardSwordHdEntry = data.find((dt) => dt.title.toLowerCase().includes('skyward sword hd'));
+
+    expect(tearsOfTheKingdomEntry).toBeDefined();
+    expect(breathOfTheWildEntry).toBeDefined();
+    expect(skywardSwordHdEntry).toBeDefined();
   });
 });
