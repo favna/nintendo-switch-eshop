@@ -1,6 +1,6 @@
 import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import React, { FC, memo } from 'react';
+import React, { memo, type FC } from 'react';
 
 const HeadTags: FC = () => {
   const { siteConfig } = useDocusaurusContext();

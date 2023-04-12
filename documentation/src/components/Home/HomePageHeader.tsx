@@ -1,6 +1,6 @@
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import clsx from 'clsx';
-import React, { FC, memo } from 'react';
+import React, { memo, type FC } from 'react';
 import styles from './HomePageHeader.module.css';
 import InstallTabs from './InstallButton/InstallTabs';
 
