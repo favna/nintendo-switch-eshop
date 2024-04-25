@@ -1,7 +1,7 @@
 import { getGamesJapan } from '../src';
 
 test('getGamesJapan', async () => {
-  const games = await getGamesJapan();
+	const games = await getGamesJapan();
 
-  expect(games).toEqual(expect.any(Object));
+	expect(games).toEqual(expect.any(Object));
 }, 60000);

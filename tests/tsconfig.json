@@ -1,7 +1,7 @@
 {
-  "extends": "../tsconfig.base.json",
-  "compilerOptions": {
-    "types": ["vitest/globals"]
-  },
-  "include": ["."]
+	"extends": "../tsconfig.base.json",
+	"compilerOptions": {
+		"types": ["vitest/globals"]
+	},
+	"include": ["."]
 }

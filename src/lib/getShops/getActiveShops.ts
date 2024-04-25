@@ -12,13 +12,13 @@ import { getShopsEurope } from './getShopsEurope';
  * @returns A list of shop objects with country code, name and default currency.
  */
 export async function getActiveShops(): Promise<EShop[]> {
-  try {
-    const shopsAmerica = await getShopsAmerica();
-    const shopsAsia = await getShopsAsia();
-    const shopsEurope = await getShopsEurope();
+	try {
+		const shopsAmerica = await getShopsAmerica();
+		const shopsAsia = await getShopsAsia();
+		const shopsEurope = await getShopsEurope();
 
-    return shopsAmerica.concat(shopsAsia, shopsEurope);
-  } catch (err) {
-    throw err as Error;
-  }
+		return shopsAmerica.concat(shopsAsia, shopsEurope);
+	} catch (err) {
+		throw err as Error;
+	}
 }

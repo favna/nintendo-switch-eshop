@@ -15,34 +15,34 @@ import { EshopError } from '../utils/utils';
  * @returns A promise containing the pricing information.
  */
 export async function getPrices(country: string, gameIds: string[] | string, offset = 0, prices: TitleData[] = []): Promise<PriceResponse> {
-  const filteredIds = gameIds.slice(offset, offset + PRICE_LIST_LIMIT);
-  const response = await Result.fromAsync(
-    fetch<PriceResponse>(
-      `${PRICE_GET_URL}?${stringify({
-        country,
-        ids: filteredIds,
-        limit: PRICE_LIST_LIMIT,
-        ...PRICE_GET_OPTIONS
-      })}`,
-      FetchResultTypes.JSON
-    )
-  );
+	const filteredIds = gameIds.slice(offset, offset + PRICE_LIST_LIMIT);
+	const response = await Result.fromAsync(
+		fetch<PriceResponse>(
+			`${PRICE_GET_URL}?${stringify({
+				country,
+				ids: filteredIds,
+				limit: PRICE_LIST_LIMIT,
+				...PRICE_GET_OPTIONS
+			})}`,
+			FetchResultTypes.JSON
+		)
+	);
 
-  if (response.isErr()) {
-    throw new EshopError('Fetching of eShop prices failed');
-  }
+	if (response.isErr()) {
+		throw new EshopError('Fetching of eShop prices failed');
+	}
 
-  const unwrappedResponse = response.unwrap();
+	const unwrappedResponse = response.unwrap();
 
-  if (unwrappedResponse.prices && unwrappedResponse.prices.length + offset < gameIds.length) {
-    const accumulatedPrices = prices.concat(unwrappedResponse.prices);
+	if (unwrappedResponse.prices && unwrappedResponse.prices.length + offset < gameIds.length) {
+		const accumulatedPrices = prices.concat(unwrappedResponse.prices);
 
-    return getPrices(country, gameIds, offset + PRICE_LIST_LIMIT, accumulatedPrices);
-  } else if (unwrappedResponse.prices) {
-    unwrappedResponse.prices = unwrappedResponse.prices.concat(prices);
+		return getPrices(country, gameIds, offset + PRICE_LIST_LIMIT, accumulatedPrices);
+	} else if (unwrappedResponse.prices) {
+		unwrappedResponse.prices = unwrappedResponse.prices.concat(prices);
 
-    return unwrappedResponse;
-  }
+		return unwrappedResponse;
+	}
 
-  return unwrappedResponse;
+	return unwrappedResponse;
 }

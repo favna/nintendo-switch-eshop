@@ -13,17 +13,17 @@ const parser = new XMLParser();
  * @returns Promise containing all the games
  */
 export async function getGamesJapan(): Promise<GameJP[]> {
-  const response = await Result.fromAsync(fetch(JP_GET_GAMES_URL, FetchResultTypes.Text));
+	const response = await Result.fromAsync(fetch(JP_GET_GAMES_URL, FetchResultTypes.Text));
 
-  if (response.isErr()) {
-    throw new EshopError('Fetching of JP Games failed');
-  }
+	if (response.isErr()) {
+		throw new EshopError('Fetching of JP Games failed');
+	}
 
-  const gamesJP = Result.from(() => parser.parse(response.unwrap()));
+	const gamesJP = Result.from(() => parser.parse(response.unwrap()));
 
-  if (gamesJP.isErr()) {
-    throw new EshopError('Parsing of JP Games failed');
-  }
+	if (gamesJP.isErr()) {
+		throw new EshopError('Parsing of JP Games failed');
+	}
 
-  return gamesJP.unwrap().TitleInfoList.TitleInfo as GameJP[];
+	return gamesJP.unwrap().TitleInfoList.TitleInfo as GameJP[];
 }

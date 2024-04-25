@@ -1,5 +1,5 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>sapphiredev/.github:sapphire-renovate"],
-  "includeForks": true
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": ["github>sapphiredev/.github:sapphire-renovate"],
+	"includeForks": true
 }

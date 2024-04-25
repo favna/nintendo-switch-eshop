@@ -33,9 +33,9 @@ export const US_GAME_CODE_REGEX = /HAC\w(\w{4})/;
 
 /** @internal Request headers for US games */
 export const US_ALGOLIA_HEADERS = {
-  'Content-Type': 'application/json',
-  'X-Algolia-API-Key': US_ALGOLIA_KEY,
-  'X-Algolia-Application-Id': US_ALGOLIA_ID
+	'Content-Type': 'application/json',
+	'X-Algolia-API-Key': US_ALGOLIA_KEY,
+	'X-Algolia-Application-Id': US_ALGOLIA_ID
 };
 
 /**
@@ -43,11 +43,11 @@ export const US_ALGOLIA_HEADERS = {
  * @internal
  */
 export const EU_GET_GAMES_OPTIONS = {
-  fq: 'type:GAME AND system_type:nintendoswitch* AND product_code_txt:*',
-  q: '*',
-  sort: 'sorting_title asc',
-  start: '0',
-  wt: 'json'
+	fq: 'type:GAME AND system_type:nintendoswitch* AND product_code_txt:*',
+	q: '*',
+	sort: 'sorting_title asc',
+	start: '0',
+	wt: 'json'
 };
 
 /** URL for getting EU Games */
@@ -115,9 +115,9 @@ export const QUERIED_BR_GET_GAMES_URL = `https://${BR_ALGOLIA_ID}-dsn.algolia.ne
 
 /** @internal Request headers for BR games */
 export const BR_ALGOLIA_HEADERS = {
-  'Content-Type': 'application/json',
-  'X-Algolia-API-Key': BR_ALGOLIA_KEY,
-  'X-Algolia-Application-Id': BR_ALGOLIA_ID
+	'Content-Type': 'application/json',
+	'X-Algolia-API-Key': BR_ALGOLIA_KEY,
+	'X-Algolia-Application-Id': BR_ALGOLIA_ID
 };
 
 /** URL for getting game prices */
@@ -139,7 +139,7 @@ export const PRICE_LIST_LIMIT = 50;
  * Predefined options for the unit system
  */
 export const enum Region {
-  AMERICAS = 1,
-  EUROPE = 2,
-  ASIA = 3
+	AMERICAS = 1,
+	EUROPE = 2,
+	ASIA = 3
 }

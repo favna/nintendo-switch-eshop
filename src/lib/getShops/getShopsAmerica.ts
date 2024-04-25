@@ -12,9 +12,9 @@ import type { EShop } from '../utils/interfaces';
  * @returns A list of shop objects with country code, name and default currency.
  */
 export async function getShopsAmerica(): Promise<EShop[]> {
-  return getShopsByCountryCodes(
-    regions.southAmerica.countries.concat(regions.centralAfrica.countries, regions.northernAmerica.countries),
-    US_GAME_CHECK_CODE,
-    Region.AMERICAS
-  );
+	return getShopsByCountryCodes(
+		regions.southAmerica.countries.concat(regions.centralAfrica.countries, regions.northernAmerica.countries),
+		US_GAME_CHECK_CODE,
+		Region.AMERICAS
+	);
 }

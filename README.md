@@ -21,15 +21,18 @@ Add the package through your package manager of choice:
 
 ```sh
 npm install nintendo-switch-eshop
-# yarn add nintendo-switch-eshop
 ```
 
 Require your desired functions:
 
 ```javascript
 const { getGamesAmerica, getGamesEurope, getGamesJapan, getQueriedGamesAmerica } = require('nintendo-switch-eshop');
-// ES6 Style: import { getGamesAmerica, getGamesEurope, getGamesJapan, getQueriedGamesAmerica } from 'nintendo-switch-eshop';
-// getGamesAmerica is also default exported: import getGamesAmerica from 'nintendo-switch-eshop';
+```
+
+Or with ES6 imports:
+
+```javascript
+import { getGamesAmerica, getGamesEurope, getGamesJapan, getQueriedGamesAmerica } from 'nintendo-switch-eshop';
 ```
 
 **For calling functions with the correct parameters and syntax please refer to the documentation linked below**

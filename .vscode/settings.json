@@ -1,16 +1,16 @@
 {
-  "files.associations": {
-    "*.mdx": "markdown"
-  },
-  "editor.detectIndentation": true,
-  "files.eol": "\n",
-  "search.exclude": {
-    "**/.docusaurus/": true,
-    "**/.git/": true,
-    "**/.yarn": true,
-    "**/*.code-search": true,
-    "**/bower_components": true,
-    "**/node_modules": true,
-    "**/documentation/docs/Documentation/": true
-  }
+	"files.associations": {
+		"*.mdx": "markdown"
+	},
+	"editor.detectIndentation": true,
+	"files.eol": "\n",
+	"search.exclude": {
+		"**/.docusaurus/": true,
+		"**/.git/": true,
+		"**/.yarn": true,
+		"**/*.code-search": true,
+		"**/bower_components": true,
+		"**/node_modules": true,
+		"**/documentation/docs/Documentation/": true
+	}
 }

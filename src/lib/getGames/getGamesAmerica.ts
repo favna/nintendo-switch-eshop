@@ -14,90 +14,90 @@ import { arrayRemoveDuplicates, EshopError } from '../utils/utils';
  * @returns Promise containing all the games
  */
 export async function getGamesAmerica(): Promise<GameUS[]> {
-  const page = 0;
+	const page = 0;
 
-  const baseParameters: Omit<ParamsObject, 'facetFilters'> = {
-    hitsPerPage: US_GAME_LIST_LIMIT,
-    page,
-    analytics: false,
-    facets: US_FACETS
-  };
+	const baseParameters: Omit<ParamsObject, 'facetFilters'> = {
+		hitsPerPage: US_GAME_LIST_LIMIT,
+		page,
+		analytics: false,
+		facets: US_FACETS
+	};
 
-  const requests: Request[] = [];
+	const requests: Request[] = [];
 
-  for (const rating of US_ESRB_RATINGS_FILTERS) {
-    requests.push(
-      {
-        indexName: US_INDEX_TITLE_ASC,
-        params: stringify({ ...baseParameters, facetFilters: `[["${rating}"],["${US_PLATFORM_FACET_FILTER}"]]` })
-      },
-      {
-        indexName: US_INDEX_TITLE_DESC,
-        params: stringify({ ...baseParameters, facetFilters: `[["${rating}"],["${US_PLATFORM_FACET_FILTER}"]]` })
-      }
-    );
-  }
+	for (const rating of US_ESRB_RATINGS_FILTERS) {
+		requests.push(
+			{
+				indexName: US_INDEX_TITLE_ASC,
+				params: stringify({ ...baseParameters, facetFilters: `[["${rating}"],["${US_PLATFORM_FACET_FILTER}"]]` })
+			},
+			{
+				indexName: US_INDEX_TITLE_DESC,
+				params: stringify({ ...baseParameters, facetFilters: `[["${rating}"],["${US_PLATFORM_FACET_FILTER}"]]` })
+			}
+		);
+	}
 
-  for (const rating of US_AVAILABILITY_FILTER) {
-    requests.push(
-      {
-        indexName: US_INDEX_TITLE_ASC,
-        params: stringify({ ...baseParameters, facetFilters: `[["${rating}"],["${US_PLATFORM_FACET_FILTER}"]]` })
-      },
-      {
-        indexName: US_INDEX_TITLE_DESC,
-        params: stringify({ ...baseParameters, facetFilters: `[["${rating}"],["${US_PLATFORM_FACET_FILTER}"]]` })
-      }
-    );
-  }
+	for (const rating of US_AVAILABILITY_FILTER) {
+		requests.push(
+			{
+				indexName: US_INDEX_TITLE_ASC,
+				params: stringify({ ...baseParameters, facetFilters: `[["${rating}"],["${US_PLATFORM_FACET_FILTER}"]]` })
+			},
+			{
+				indexName: US_INDEX_TITLE_DESC,
+				params: stringify({ ...baseParameters, facetFilters: `[["${rating}"],["${US_PLATFORM_FACET_FILTER}"]]` })
+			}
+		);
+	}
 
-  for (const rating of US_COMMON_GAME_FRANCHISES) {
-    requests.push(
-      {
-        indexName: US_INDEX_TITLE_ASC,
-        params: stringify({ ...baseParameters, facetFilters: `[["${rating}"],["${US_PLATFORM_FACET_FILTER}"]]` })
-      },
-      {
-        indexName: US_INDEX_TITLE_DESC,
-        params: stringify({ ...baseParameters, facetFilters: `[["${rating}"],["${US_PLATFORM_FACET_FILTER}"]]` })
-      }
-    );
-  }
+	for (const rating of US_COMMON_GAME_FRANCHISES) {
+		requests.push(
+			{
+				indexName: US_INDEX_TITLE_ASC,
+				params: stringify({ ...baseParameters, facetFilters: `[["${rating}"],["${US_PLATFORM_FACET_FILTER}"]]` })
+			},
+			{
+				indexName: US_INDEX_TITLE_DESC,
+				params: stringify({ ...baseParameters, facetFilters: `[["${rating}"],["${US_PLATFORM_FACET_FILTER}"]]` })
+			}
+		);
+	}
 
-  const requestOptions = {
-    body: JSON.stringify({
-      requests
-    }),
-    method: 'POST',
-    headers: US_ALGOLIA_HEADERS
-  };
+	const requestOptions = {
+		body: JSON.stringify({
+			requests
+		}),
+		method: 'POST',
+		headers: US_ALGOLIA_HEADERS
+	};
 
-  const gamesResponse = await Result.fromAsync(fetch<AlgoliaResponse>(US_GET_GAMES_URL, requestOptions, FetchResultTypes.JSON));
+	const gamesResponse = await Result.fromAsync(fetch<AlgoliaResponse>(US_GET_GAMES_URL, requestOptions, FetchResultTypes.JSON));
 
-  if (gamesResponse.isErr()) {
-    throw new EshopError('Fetching of US Games failed');
-  }
+	if (gamesResponse.isErr()) {
+		throw new EshopError('Fetching of US Games failed');
+	}
 
-  let allGames: any[] | PromiseLike<GameUS[]> = [];
-  for (const results of gamesResponse.unwrap().results) {
-    allGames = allGames.concat(results.hits);
-  }
+	let allGames: any[] | PromiseLike<GameUS[]> = [];
+	for (const results of gamesResponse.unwrap().results) {
+		allGames = allGames.concat(results.hits);
+	}
 
-  allGames = arrayRemoveDuplicates(allGames, 'slug');
-  return allGames;
+	allGames = arrayRemoveDuplicates(allGames, 'slug');
+	return allGames;
 }
 
 interface Request {
-  indexName: string;
-  params: string;
+	indexName: string;
+	params: string;
 }
 
 interface ParamsObject {
-  hitsPerPage: number;
-  page: number;
-  analytics: boolean;
-  facets: string;
-  facetFilters: string;
+	hitsPerPage: number;
+	page: number;
+	analytics: boolean;
+	facets: string;
+	facetFilters: string;
 }
 
 /** @internal The maximum number of entries that Nintendo lets us get in 1 request for US games */
@@ -111,16 +111,16 @@ const US_INDEX_TITLE_DESC = 'ncom_game_en_us_title_des';
 
 /** @internal Static query parameters for facets/filters in US Algolia calls */
 const US_FACETS = JSON.stringify([
-  'generalFilters',
-  'platform',
-  'availability',
-  'genres',
-  'howToShop',
-  'virtualConsole',
-  'franchises',
-  'priceRange',
-  'esrbRating',
-  'playerFilters'
+	'generalFilters',
+	'platform',
+	'availability',
+	'genres',
+	'howToShop',
+	'virtualConsole',
+	'franchises',
+	'priceRange',
+	'esrbRating',
+	'playerFilters'
 ]);
 
 /** @internal */

@@ -15,22 +15,22 @@ import { EshopError } from '../utils/utils';
  * @returns Promise containing all requested EU/PAL games
  */
 export async function getGamesEurope(options: EURequestOptions = { limit: EU_GAME_LIST_LIMIT, locale: EU_DEFAULT_LOCALE }): Promise<GameEU[]> {
-  if (!options.limit) options.limit = EU_GAME_LIST_LIMIT;
-  if (!options.locale) options.locale = EU_DEFAULT_LOCALE;
+	if (!options.limit) options.limit = EU_GAME_LIST_LIMIT;
+	if (!options.locale) options.locale = EU_DEFAULT_LOCALE;
 
-  const gamesData = await Result.fromAsync(
-    fetch<{ response: { docs: GameEU[] } }>(
-      `${EU_GET_GAMES_URL.replace('{locale}', options.locale)}?${stringify({
-        rows: options.limit,
-        ...EU_GET_GAMES_OPTIONS
-      })}`,
-      FetchResultTypes.JSON
-    )
-  );
+	const gamesData = await Result.fromAsync(
+		fetch<{ response: { docs: GameEU[] } }>(
+			`${EU_GET_GAMES_URL.replace('{locale}', options.locale)}?${stringify({
+				rows: options.limit,
+				...EU_GET_GAMES_OPTIONS
+			})}`,
+			FetchResultTypes.JSON
+		)
+	);
 
-  if (gamesData.isErr()) {
-    throw new EshopError('Fetching of EU Games failed');
-  }
+	if (gamesData.isErr()) {
+		throw new EshopError('Fetching of EU Games failed');
+	}
 
-  return gamesData.unwrap().response.docs;
+	return gamesData.unwrap().response.docs;
 }

@@ -14,33 +14,33 @@ import { EshopError } from '../utils/utils';
  * @copyright 2021
  */
 export async function getQueriedGamesBrazil(
-  query: string,
-  { hitsPerPage = 200, page = 0 }: QueriedGamesAmericaOptions = { hitsPerPage: 200, page: 0 }
+	query: string,
+	{ hitsPerPage = 200, page = 0 }: QueriedGamesAmericaOptions = { hitsPerPage: 200, page: 0 }
 ): Promise<QueriedGameUS[]> {
-  const gamesResult = await Result.fromAsync(
-    fetch<QueriedGameResult>(
-      QUERIED_BR_GET_GAMES_URL,
-      {
-        method: 'POST',
-        headers: {
-          ...BR_ALGOLIA_HEADERS,
-          'X-Algolia-API-Key': QUERIED_BR_ALGOLIA_KEY
-        },
-        body: JSON.stringify({
-          params: stringify({
-            hitsPerPage,
-            page,
-            query
-          })
-        })
-      },
-      FetchResultTypes.JSON
-    )
-  );
+	const gamesResult = await Result.fromAsync(
+		fetch<QueriedGameResult>(
+			QUERIED_BR_GET_GAMES_URL,
+			{
+				method: 'POST',
+				headers: {
+					...BR_ALGOLIA_HEADERS,
+					'X-Algolia-API-Key': QUERIED_BR_ALGOLIA_KEY
+				},
+				body: JSON.stringify({
+					params: stringify({
+						hitsPerPage,
+						page,
+						query
+					})
+				})
+			},
+			FetchResultTypes.JSON
+		)
+	);
 
-  if (gamesResult.isErr() || gamesResult.isOkAnd((v) => v.hits.length === 0)) {
-    throw new EshopError(`No game results for the query "${query}"`);
-  }
+	if (gamesResult.isErr() || gamesResult.isOkAnd((v) => v.hits.length === 0)) {
+		throw new EshopError(`No game results for the query "${query}"`);
+	}
 
-  return gamesResult.unwrap().hits;
+	return gamesResult.unwrap().hits;
 }

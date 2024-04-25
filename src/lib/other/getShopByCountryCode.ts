@@ -13,30 +13,30 @@ import { getPrices } from './getPrices';
  * @returns A list of shop objects with country code, name and default currency.
  */
 export async function getShopsByCountryCodes(countryCodes: string[], gameCode: string, region: Region): Promise<EShop[]> {
-  const countryList: Country[] = countryCodes.map((code: string) => countries.all.filter((country: Country) => country.alpha2 === code)[0]);
-  const shops: PriceResponse[] = [];
+	const countryList: Country[] = countryCodes.map((code: string) => countries.all.filter((country: Country) => country.alpha2 === code)[0]);
+	const shops: PriceResponse[] = [];
 
-  for (const country of countryList) {
-    const response = await Result.fromAsync(getPrices(country.alpha2, gameCode));
+	for (const country of countryList) {
+		const response = await Result.fromAsync(getPrices(country.alpha2, gameCode));
 
-    if (response.isErr()) {
-      continue;
-    }
+		if (response.isErr()) {
+			continue;
+		}
 
-    const unwrappedResponse = response.unwrap();
-    unwrappedResponse.country = country;
-    shops.push(unwrappedResponse);
-  }
+		const unwrappedResponse = response.unwrap();
+		unwrappedResponse.country = country;
+		shops.push(unwrappedResponse);
+	}
 
-  const activeShops = shops.filter((shop: PriceResponse) => shop && shop.prices && shop.prices.length && shop.prices[0].regular_price);
-  const eShops = activeShops.map((shop: PriceResponse) => ({
-    code: shop.country.alpha2,
-    country: shop.country.name,
-    currency: shop.prices[0].regular_price.currency,
-    region
-  }));
+	const activeShops = shops.filter((shop: PriceResponse) => shop && shop.prices && shop.prices.length && shop.prices[0].regular_price);
+	const eShops = activeShops.map((shop: PriceResponse) => ({
+		code: shop.country.alpha2,
+		country: shop.country.name,
+		currency: shop.prices[0].regular_price.currency,
+		region
+	}));
 
-  if (!eShops.length) throw new Error('ACTIVE_SHOPS_Rate_Limit');
+	if (!eShops.length) throw new Error('ACTIVE_SHOPS_Rate_Limit');
 
-  return eShops;
+	return eShops;
 }
