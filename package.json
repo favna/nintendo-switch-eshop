@@ -1,105 +1,113 @@
 {
-  "name": "nintendo-switch-eshop",
-  "version": "7.1.3",
-  "workspaces": [
-    "documentation/"
-  ],
-  "description": "Unofficial API lib for Nintendo Switch eShop game listing and pricing information.",
-  "author": "favna",
-  "license": "Apache-2.0",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
-  "exports": {
-    "import": "./dist/index.mjs",
-    "require": "./dist/index.js",
-    "types": "./dist/index.d.ts"
-  },
-  "sideEffects": false,
-  "homepage": "https://nintendo-switch-eshop.vercel.app",
-  "scripts": {
-    "test": "vitest run",
-    "lint": "eslint src tests documentation/src --ext mjs,js,ts,tsx --fix",
-    "typecheck": "tsc -p tsconfig.dev.json",
-    "build": "tsup",
-    "bump": "cliff-jumper",
-    "check-update": "cliff-jumper --dry-run",
-    "prepack": "yarn build"
-  },
-  "dependencies": {
-    "@sapphire/fetch": "^2.4.1",
-    "@sapphire/result": "^2.6.4",
-    "@types/country-data": "^0.0.2",
-    "country-data": "^0.0.31",
-    "fast-xml-parser": "^4.2.7"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^17.7.1",
-    "@commitlint/config-conventional": "^17.7.0",
-    "@favware/cliff-jumper": "^2.1.2",
-    "@sapphire/eslint-config": "^5.0.2",
-    "@sapphire/prettier-config": "^2.0.0",
-    "@sapphire/ts-config": "^5.0.0",
-    "@types/node": "^18.17.12",
-    "@typescript-eslint/eslint-plugin": "^6.5.0",
-    "@typescript-eslint/parser": "^6.5.0",
-    "@vitest/coverage-v8": "^0.34.3",
-    "common-tags": "^1.8.2",
-    "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.48.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^5.0.0",
-    "lint-staged": "^14.0.1",
-    "prettier": "^3.0.3",
-    "replace": "^1.2.2",
-    "tsup": "^7.2.0",
-    "typescript": "^5.2.2",
-    "vitest": "^0.34.3"
-  },
-  "resolutions": {
-    "@types/react": "^18.0.9",
-    "@types/react-dom": "^18.0.4",
-    "async": "^2.6.4",
-    "ansi-regex": "^5.0.1",
-    "minimist": "^1.2.6"
-  },
-  "files": [
-    "dist/**/*.js*",
-    "dist/**/*.mjs*",
-    "dist/**/*.d*"
-  ],
-  "engines": {
-    "node": ">=10",
-    "npm": ">=6"
-  },
-  "keywords": [
-    "eshop",
-    "switch",
-    "nintendo",
-    "crawler",
-    "lib",
-    "typescript"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/favna/nintendo-switch-eshop.git"
-  },
-  "bugs": {
-    "url": "https://github.com/favna/nintendo-switch-eshop/issues"
-  },
-  "lint-staged": {
-    "*": "prettier --ignore-unknown --write",
-    "*.{mjs,js,ts}": "eslint --fix --ext mjs,js,ts"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
-  "packageManager": "yarn@3.2.1"
+	"name": "nintendo-switch-eshop",
+	"version": "7.1.3",
+	"workspaces": [
+		"documentation/"
+	],
+	"description": "Unofficial API lib for Nintendo Switch eShop game listing and pricing information.",
+	"author": "favna",
+	"license": "Apache-2.0",
+	"type": "module",
+	"main": "dist/cjs/index.cjs",
+	"module": "dist/esm/index.mjs",
+	"browser": "dist/iife/index.global.js",
+	"unpkg": "dist/iife/index.global.js",
+	"types": "dist/cjs/index.d.cts",
+	"exports": {
+		"import": {
+			"types": "./dist/esm/index.d.mts",
+			"default": "./dist/esm/index.mjs"
+		},
+		"require": {
+			"types": "./dist/cjs/index.d.cts",
+			"default": "./dist/cjs/index.cjs"
+		},
+		"browser": "./dist/iife/index.global.js"
+	},
+	"sideEffects": false,
+	"homepage": "https://nintendo-switch-eshop.vercel.app",
+	"scripts": {
+		"test": "vitest run",
+		"lint": "eslint src tests --ext mjs,js,ts,tsx --fix",
+		"typecheck": "tsc -p tsconfig.eslint.json && tsc -p documentation/tsconfig.json",
+		"build": "tsup && yarn build:rename-cjs-index",
+		"build:rename-cjs-index": "node scripts/rename-cjs-index.mjs",
+		"bump": "cliff-jumper",
+		"check-update": "cliff-jumper --dry-run",
+		"prepack": "yarn build"
+	},
+	"dependencies": {
+		"@sapphire/fetch": "^3.0.2",
+		"@sapphire/result": "^2.6.6",
+		"@types/country-data": "^0.0.5",
+		"country-data": "^0.0.31",
+		"fast-xml-parser": "^4.3.6"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^19.3.0",
+		"@commitlint/config-conventional": "^19.2.2",
+		"@favware/cliff-jumper": "^3.0.3",
+		"@sapphire/eslint-config": "^5.0.4",
+		"@sapphire/prettier-config": "^2.0.0",
+		"@sapphire/ts-config": "^5.0.1",
+		"@types/node": "^20.12.7",
+		"@typescript-eslint/eslint-plugin": "^7.7.1",
+		"@typescript-eslint/parser": "^7.7.1",
+		"@vitest/coverage-v8": "^1.5.2",
+		"common-tags": "^1.8.2",
+		"cz-conventional-changelog": "^3.3.0",
+		"esbuild-plugins-node-modules-polyfill": "^1.6.3",
+		"eslint": "^8.57.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.1.3",
+		"lint-staged": "^15.2.2",
+		"prettier": "^3.2.5",
+		"replace": "^1.2.2",
+		"tsup": "^8.0.2",
+		"typescript": "^5.4.5",
+		"vitest": "^1.5.2"
+	},
+	"resolutions": {
+		"@types/react": "^18.0.9",
+		"@types/react-dom": "^18.0.4",
+		"async": "^2.6.4",
+		"ansi-regex": "^5.0.1",
+		"minimist": "^1.2.6"
+	},
+	"files": [
+		"dist/"
+	],
+	"engines": {
+		"node": ">=v16"
+	},
+	"keywords": [
+		"eshop",
+		"switch",
+		"nintendo",
+		"crawler",
+		"lib",
+		"typescript"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/favna/nintendo-switch-eshop.git"
+	},
+	"bugs": {
+		"url": "https://github.com/favna/nintendo-switch-eshop/issues"
+	},
+	"lint-staged": {
+		"*": "prettier --ignore-unknown --write",
+		"*.{mjs,js,ts}": "eslint --fix --ext mjs,js,ts"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	},
+	"commitlint": {
+		"extends": [
+			"@commitlint/config-conventional"
+		]
+	},
+	"packageManager": "yarn@4.1.1"
 }

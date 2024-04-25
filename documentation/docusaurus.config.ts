@@ -34,7 +34,7 @@ const config: Config = {
 					{
 						tagName: 'link',
 						rel: 'manifest',
-						href: '/pwa/manifest.webmanifest'
+						href: '/manifest.webmanifest'
 					},
 					{
 						tagName: 'meta',

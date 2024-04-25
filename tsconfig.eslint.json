@@ -1,8 +1,9 @@
 {
-	"extends": "./tsconfig.base.json",
+	"extends": ["./tsconfig.base.json"],
 	"compilerOptions": {
 		"allowJs": true,
 		"checkJs": true,
+		"skipLibCheck": true,
 		"types": ["vitest/globals"]
 	},
 	"include": [
@@ -11,7 +12,6 @@
 		"scripts",
 		"tsup.config.ts",
 		"vitest.config.ts",
-		"documentation/src",
 		"documentation/docusaurus.config.ts",
 		"documentation/babel.config.js",
 		"documentation/sidebars.ts"
