@@ -122,6 +122,6 @@ export default defineConfig({
 		sitemap(),
 		compress()
 	],
-	output: 'server',
+	output: 'hybrid',
 	adapter: cloudflare()
 });
