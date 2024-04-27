@@ -1,11 +1,3 @@
 {
-	"extends": ["@sapphire/ts-config", "@sapphire/ts-config/bundler", "@docusaurus/tsconfig"],
-	"compilerOptions": {
-		"baseUrl": ".",
-		"jsx": "react-jsx",
-		"lib": ["ESNext", "DOM"],
-		"noImplicitAny": false
-	},
-	"include": ["src", "docs"],
-	"exclude": ["docs/Documentation"]
+	"extends": "astro/tsconfigs/strictest"
 }

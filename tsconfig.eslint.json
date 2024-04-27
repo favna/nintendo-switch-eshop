@@ -6,14 +6,5 @@
 		"skipLibCheck": true,
 		"types": ["vitest/globals"]
 	},
-	"include": [
-		"src",
-		"tests",
-		"scripts",
-		"tsup.config.ts",
-		"vitest.config.ts",
-		"documentation/docusaurus.config.ts",
-		"documentation/babel.config.js",
-		"documentation/sidebars.ts"
-	]
+	"include": ["src", "tests", "scripts", "tsup.config.ts", "vitest.config.ts", "documentation/src", "documentation/astro.config.mts"]
 }

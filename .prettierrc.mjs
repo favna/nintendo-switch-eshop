@@ -2,6 +2,7 @@ import sapphirePrettierConfig from '@sapphire/prettier-config';
 
 export default {
 	...sapphirePrettierConfig,
+	plugins: ['prettier-plugin-astro'],
 	overrides: [
 		...sapphirePrettierConfig.overrides,
 		{
@@ -11,6 +12,12 @@ export default {
 				useTabs: false,
 				printWidth: 120,
 				proseWrap: 'always'
+			}
+		},
+		{
+			files: ['*.astro'],
+			options: {
+				parser: 'astro'
 			}
 		}
 	]
