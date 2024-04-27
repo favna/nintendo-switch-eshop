@@ -10,7 +10,6 @@
 	},
 	"dependencies": {
 		"@astrojs/check": "^0.5.10",
-		"@astrojs/cloudflare": "^10.2.4",
 		"@astrojs/sitemap": "^3.1.4",
 		"@astrojs/starlight": "^0.21.5",
 		"@sapphire/docusaurus-plugin-npm2yarn2pnpm": "2.0.2",

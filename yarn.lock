@@ -62,25 +62,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/cloudflare@npm:^10.2.4":
-  version: 10.2.4
-  resolution: "@astrojs/cloudflare@npm:10.2.4"
-  dependencies:
-    "@astrojs/internal-helpers": "npm:0.3.0"
-    "@astrojs/underscore-redirects": "npm:^0.3.3"
-    "@cloudflare/workers-types": "npm:^4.20240320.1"
-    esbuild: "npm:^0.19.5"
-    estree-walker: "npm:^3.0.3"
-    magic-string: "npm:^0.30.10"
-    miniflare: "npm:^3.20240320.0"
-    tiny-glob: "npm:^0.2.9"
-    wrangler: "npm:^3.39.0"
-  peerDependencies:
-    astro: ^4.2.0
-  checksum: 10/cf67073068a707e1c679b87c0cc8ade4bf874dcd4a5cbef66cfaf5af1f72dd5f493ac719c2b2421f2d971421d9cb04b9c30f672d418df466112fb21938aa3078
-  languageName: node
-  linkType: hard
-
 "@astrojs/compiler@npm:^1.5.5":
   version: 1.8.2
   resolution: "@astrojs/compiler@npm:1.8.2"
@@ -92,13 +73,6 @@ __metadata:
   version: 2.7.1
   resolution: "@astrojs/compiler@npm:2.7.1"
   checksum: 10/7537fee5c67415bf7a3863ef08f3ddeab2940583f3ddd63d7d1aa77182536da915229db2989b74885f90705ee980ee18fd8b1d670b30cb7620e4ab5e9631e7e0
-  languageName: node
-  linkType: hard
-
-"@astrojs/internal-helpers@npm:0.3.0":
-  version: 0.3.0
-  resolution: "@astrojs/internal-helpers@npm:0.3.0"
-  checksum: 10/485efaa0a38e489a683162637e720c9f3dae1b4afc17d11f61b86324970b9388a7cfee4fceb96d0bf0677b6f40912cf4d99e08dcdf67021d09270e712c8610dd
   languageName: node
   linkType: hard
 
@@ -296,13 +270,6 @@ __metadata:
     is-wsl: "npm:^3.0.0"
     which-pm-runs: "npm:^1.1.0"
   checksum: 10/8c571c53154d111ba865a4f870796baca07b42afe2e5390713c6bd2b63ed06d32d6008f1d3070fc15a1b1ebfcc33ae309a1da1ddf5854aa7c55d042e9de660f0
-  languageName: node
-  linkType: hard
-
-"@astrojs/underscore-redirects@npm:^0.3.3":
-  version: 0.3.3
-  resolution: "@astrojs/underscore-redirects@npm:0.3.3"
-  checksum: 10/20564f357ccf1a2d6e0ee13d097b9957e876d931f56a7e1d2ec71bda9a0a801c57de9cddd1bbf7dfb5ecf44cac9ea09476334e61299b1435659c409d869a8dd0
   languageName: node
   linkType: hard
 
@@ -1801,13 +1768,6 @@ __metadata:
   version: 1.20240419.0
   resolution: "@cloudflare/workerd-windows-64@npm:1.20240419.0"
   conditions: os=win32 & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@cloudflare/workers-types@npm:^4.20240320.1":
-  version: 4.20240423.0
-  resolution: "@cloudflare/workers-types@npm:4.20240423.0"
-  checksum: 10/70beae06cf929b01883c847d0a41aee8ac6734350785a8d1b913fe8b7ceb050b0d339967e373b7016da0b7697bf8d58dfb69de5c8a3b79cf2bbc72f2681695eb
   languageName: node
   linkType: hard
 
@@ -6232,7 +6192,6 @@ __metadata:
   resolution: "documentation@workspace:documentation"
   dependencies:
     "@astrojs/check": "npm:^0.5.10"
-    "@astrojs/cloudflare": "npm:^10.2.4"
     "@astrojs/sitemap": "npm:^3.1.4"
     "@astrojs/starlight": "npm:^0.21.5"
     "@sapphire/docusaurus-plugin-npm2yarn2pnpm": "npm:2.0.2"
@@ -6702,7 +6661,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.19.2, esbuild@npm:^0.19.5, esbuild@npm:^0.19.6":
+"esbuild@npm:^0.19.2, esbuild@npm:^0.19.6":
   version: 0.19.12
   resolution: "esbuild@npm:0.19.12"
   dependencies:
@@ -7810,13 +7769,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globalyzer@npm:0.1.0":
-  version: 0.1.0
-  resolution: "globalyzer@npm:0.1.0"
-  checksum: 10/419a0f95ba542534fac0842964d31b3dc2936a479b2b1a8a62bad7e8b61054faa9b0a06ad9f2e12593396b9b2621cac93358d9b3071d33723fb1778608d358a1
-  languageName: node
-  linkType: hard
-
 "globby@npm:^11.0.3, globby@npm:^11.0.4, globby@npm:^11.1.0":
   version: 11.1.0
   resolution: "globby@npm:11.1.0"
@@ -7828,13 +7780,6 @@ __metadata:
     merge2: "npm:^1.4.1"
     slash: "npm:^3.0.0"
   checksum: 10/288e95e310227bbe037076ea81b7c2598ccbc3122d87abc6dab39e1eec309aa14f0e366a98cdc45237ffcfcbad3db597778c0068217dcb1950fef6249104e1b1
-  languageName: node
-  linkType: hard
-
-"globrex@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "globrex@npm:0.1.2"
-  checksum: 10/81ce62ee6f800d823d6b7da7687f841676d60ee8f51f934ddd862e4057316d26665c4edc0358d4340a923ac00a514f8b67c787e28fe693aae16350f4e60d55e9
   languageName: node
   linkType: hard
 
@@ -10534,7 +10479,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"miniflare@npm:3.20240419.0, miniflare@npm:^3.20240320.0":
+"miniflare@npm:3.20240419.0":
   version: 3.20240419.0
   resolution: "miniflare@npm:3.20240419.0"
   dependencies:
@@ -13418,16 +13363,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tiny-glob@npm:^0.2.9":
-  version: 0.2.9
-  resolution: "tiny-glob@npm:0.2.9"
-  dependencies:
-    globalyzer: "npm:0.1.0"
-    globrex: "npm:^0.1.2"
-  checksum: 10/5fb773747f6a8fcae4b8884642901fa7b884879695186c422eb24b2213dfe90645f34225ced586329b3080d850472ea938646ab1c8b3a2989f9fa038fef8eee3
-  languageName: node
-  linkType: hard
-
 "tinybench@npm:^2.5.1":
   version: 2.8.0
   resolution: "tinybench@npm:2.8.0"
@@ -15025,7 +14960,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:^3.39.0, wrangler@npm:^3.52.0":
+"wrangler@npm:^3.52.0":
   version: 3.52.0
   resolution: "wrangler@npm:3.52.0"
   dependencies:
