@@ -9,7 +9,7 @@ const title = 'Nintendo Switch Eshop API';
  * Defines the default SEO configuration for the website.
  */
 export const seoConfig = {
-	baseURL: 'https://nintendo-switch-eshop.vercel.app',
+	baseURL: 'https://nintendo-switch-eshop.pages.dev',
 	description,
 	email,
 	type: 'website',

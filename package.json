@@ -25,7 +25,7 @@
 		"browser": "./dist/iife/index.global.js"
 	},
 	"sideEffects": false,
-	"homepage": "https://nintendo-switch-eshop.vercel.app",
+	"homepage": "https://nintendo-switch-eshop.pages.dev",
 	"scripts": {
 		"test": "vitest run",
 		"lint": "eslint src tests --ext mjs,js,ts,tsx --fix",
