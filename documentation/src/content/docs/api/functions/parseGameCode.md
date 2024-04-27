@@ -27,7 +27,7 @@ The 4-digit resulting game code
 
 ## Source
 
-[lib/other/parseGameCode.ts:12](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/other/parseGameCode.ts#L12)
+[lib/other/parseGameCode.ts:12](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/other/parseGameCode.ts#L12)
 
 ---
 

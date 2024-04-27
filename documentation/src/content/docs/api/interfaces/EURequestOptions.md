@@ -27,7 +27,7 @@ On the US eshop, the max limit is 100. Leave empty to get all the games.
 
 #### Source
 
-[lib/utils/interfaces.ts:668](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L668)
+[lib/utils/interfaces.ts:668](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L668)
 
 ---
 
@@ -39,7 +39,7 @@ Game information locale. (EU Only)
 
 #### Source
 
-[lib/utils/interfaces.ts:673](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L673)
+[lib/utils/interfaces.ts:673](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L673)
 
 ---
 

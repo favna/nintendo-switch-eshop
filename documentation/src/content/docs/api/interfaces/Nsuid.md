@@ -13,7 +13,7 @@ title: 'Nsuid'
 
 #### Source
 
-[lib/utils/interfaces.ts:428](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L428)
+[lib/utils/interfaces.ts:428](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L428)
 
 ---
 
@@ -23,7 +23,7 @@ title: 'Nsuid'
 
 #### Source
 
-[lib/utils/interfaces.ts:432](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L432)
+[lib/utils/interfaces.ts:432](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L432)
 
 ---
 
@@ -33,7 +33,7 @@ title: 'Nsuid'
 
 #### Source
 
-[lib/utils/interfaces.ts:430](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L430)
+[lib/utils/interfaces.ts:430](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L430)
 
 ---
 
@@ -43,7 +43,7 @@ title: 'Nsuid'
 
 #### Source
 
-[lib/utils/interfaces.ts:434](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L434)
+[lib/utils/interfaces.ts:434](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L434)
 
 ---
 

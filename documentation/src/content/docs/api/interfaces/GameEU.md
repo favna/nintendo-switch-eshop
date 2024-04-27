@@ -13,7 +13,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:5](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L5)
+[lib/utils/interfaces.ts:5](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L5)
 
 ---
 
@@ -23,7 +23,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:7](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L7)
+[lib/utils/interfaces.ts:7](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L7)
 
 ---
 
@@ -33,7 +33,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:9](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L9)
+[lib/utils/interfaces.ts:9](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L9)
 
 ---
 
@@ -43,7 +43,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:11](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L11)
+[lib/utils/interfaces.ts:11](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L11)
 
 ---
 
@@ -53,7 +53,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:13](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L13)
+[lib/utils/interfaces.ts:13](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L13)
 
 ---
 
@@ -63,7 +63,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:15](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L15)
+[lib/utils/interfaces.ts:15](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L15)
 
 ---
 
@@ -73,7 +73,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:17](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L17)
+[lib/utils/interfaces.ts:17](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L17)
 
 ---
 
@@ -83,7 +83,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:19](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L19)
+[lib/utils/interfaces.ts:19](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L19)
 
 ---
 
@@ -93,7 +93,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:21](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L21)
+[lib/utils/interfaces.ts:21](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L21)
 
 ---
 
@@ -103,7 +103,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:23](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L23)
+[lib/utils/interfaces.ts:23](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L23)
 
 ---
 
@@ -113,7 +113,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:25](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L25)
+[lib/utils/interfaces.ts:25](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L25)
 
 ---
 
@@ -123,7 +123,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:27](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L27)
+[lib/utils/interfaces.ts:27](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L27)
 
 ---
 
@@ -133,7 +133,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:29](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L29)
+[lib/utils/interfaces.ts:29](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L29)
 
 ---
 
@@ -143,7 +143,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:31](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L31)
+[lib/utils/interfaces.ts:31](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L31)
 
 ---
 
@@ -153,7 +153,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:33](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L33)
+[lib/utils/interfaces.ts:33](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L33)
 
 ---
 
@@ -163,7 +163,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:35](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L35)
+[lib/utils/interfaces.ts:35](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L35)
 
 ---
 
@@ -173,7 +173,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:37](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L37)
+[lib/utils/interfaces.ts:37](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L37)
 
 ---
 
@@ -183,7 +183,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:39](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L39)
+[lib/utils/interfaces.ts:39](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L39)
 
 ---
 
@@ -193,7 +193,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:41](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L41)
+[lib/utils/interfaces.ts:41](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L41)
 
 ---
 
@@ -203,7 +203,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:43](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L43)
+[lib/utils/interfaces.ts:43](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L43)
 
 ---
 
@@ -213,7 +213,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:45](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L45)
+[lib/utils/interfaces.ts:45](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L45)
 
 ---
 
@@ -223,7 +223,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:47](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L47)
+[lib/utils/interfaces.ts:47](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L47)
 
 ---
 
@@ -233,7 +233,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:49](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L49)
+[lib/utils/interfaces.ts:49](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L49)
 
 ---
 
@@ -243,7 +243,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:51](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L51)
+[lib/utils/interfaces.ts:51](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L51)
 
 ---
 
@@ -253,7 +253,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:53](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L53)
+[lib/utils/interfaces.ts:53](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L53)
 
 ---
 
@@ -263,7 +263,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:55](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L55)
+[lib/utils/interfaces.ts:55](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L55)
 
 ---
 
@@ -273,7 +273,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:57](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L57)
+[lib/utils/interfaces.ts:57](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L57)
 
 ---
 
@@ -283,7 +283,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:59](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L59)
+[lib/utils/interfaces.ts:59](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L59)
 
 ---
 
@@ -293,7 +293,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:61](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L61)
+[lib/utils/interfaces.ts:61](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L61)
 
 ---
 
@@ -303,7 +303,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:63](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L63)
+[lib/utils/interfaces.ts:63](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L63)
 
 ---
 
@@ -313,7 +313,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:65](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L65)
+[lib/utils/interfaces.ts:65](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L65)
 
 ---
 
@@ -323,7 +323,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:67](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L67)
+[lib/utils/interfaces.ts:67](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L67)
 
 ---
 
@@ -333,7 +333,7 @@ title: 'GameEU'
 
 #### Source
 
-[lib/utils/interfaces.ts:69](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L69)
+[lib/utils/interfaces.ts:69](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L69)
 
 ---
 
@@ -345,7 +345,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:72](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L72)
+[lib/utils/interfaces.ts:72](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L72)
 
 ---
 
@@ -355,7 +355,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:74](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L74)
+[lib/utils/interfaces.ts:74](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L74)
 
 ---
 
@@ -365,7 +365,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:76](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L76)
+[lib/utils/interfaces.ts:76](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L76)
 
 ---
 
@@ -375,7 +375,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:78](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L78)
+[lib/utils/interfaces.ts:78](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L78)
 
 ---
 
@@ -385,7 +385,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:80](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L80)
+[lib/utils/interfaces.ts:80](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L80)
 
 ---
 
@@ -395,7 +395,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:82](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L82)
+[lib/utils/interfaces.ts:82](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L82)
 
 ---
 
@@ -405,7 +405,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:84](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L84)
+[lib/utils/interfaces.ts:84](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L84)
 
 ---
 
@@ -415,7 +415,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:86](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L86)
+[lib/utils/interfaces.ts:86](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L86)
 
 ---
 
@@ -425,7 +425,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:88](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L88)
+[lib/utils/interfaces.ts:88](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L88)
 
 ---
 
@@ -435,7 +435,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:90](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L90)
+[lib/utils/interfaces.ts:90](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L90)
 
 ---
 
@@ -445,7 +445,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:92](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L92)
+[lib/utils/interfaces.ts:92](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L92)
 
 ---
 
@@ -455,7 +455,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:94](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L94)
+[lib/utils/interfaces.ts:94](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L94)
 
 ---
 
@@ -465,7 +465,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:96](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L96)
+[lib/utils/interfaces.ts:96](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L96)
 
 ---
 
@@ -475,7 +475,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:98](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L98)
+[lib/utils/interfaces.ts:98](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L98)
 
 ---
 
@@ -485,7 +485,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:100](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L100)
+[lib/utils/interfaces.ts:100](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L100)
 
 ---
 
@@ -495,7 +495,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:102](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L102)
+[lib/utils/interfaces.ts:102](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L102)
 
 ---
 
@@ -505,7 +505,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:104](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L104)
+[lib/utils/interfaces.ts:104](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L104)
 
 ---
 
@@ -515,7 +515,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:106](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L106)
+[lib/utils/interfaces.ts:106](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L106)
 
 ---
 
@@ -525,7 +525,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:108](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L108)
+[lib/utils/interfaces.ts:108](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L108)
 
 ---
 
@@ -535,7 +535,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:110](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L110)
+[lib/utils/interfaces.ts:110](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L110)
 
 ---
 
@@ -545,7 +545,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:112](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L112)
+[lib/utils/interfaces.ts:112](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L112)
 
 ---
 
@@ -555,7 +555,7 @@ Array containing the 14-digit game unique identifier
 
 #### Source
 
-[lib/utils/interfaces.ts:114](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L114)
+[lib/utils/interfaces.ts:114](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L114)
 
 ---
 
@@ -567,7 +567,7 @@ Array containing the product code
 
 #### Source
 
-[lib/utils/interfaces.ts:117](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L117)
+[lib/utils/interfaces.ts:117](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L117)
 
 ---
 
@@ -577,7 +577,7 @@ Array containing the product code
 
 #### Source
 
-[lib/utils/interfaces.ts:119](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L119)
+[lib/utils/interfaces.ts:119](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L119)
 
 ---
 
@@ -587,7 +587,7 @@ Array containing the product code
 
 #### Source
 
-[lib/utils/interfaces.ts:121](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L121)
+[lib/utils/interfaces.ts:121](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L121)
 
 ---
 
@@ -597,7 +597,7 @@ Array containing the product code
 
 #### Source
 
-[lib/utils/interfaces.ts:123](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L123)
+[lib/utils/interfaces.ts:123](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L123)
 
 ---
 
@@ -607,7 +607,7 @@ Array containing the product code
 
 #### Source
 
-[lib/utils/interfaces.ts:125](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L125)
+[lib/utils/interfaces.ts:125](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L125)
 
 ---
 
@@ -617,7 +617,7 @@ Array containing the product code
 
 #### Source
 
-[lib/utils/interfaces.ts:127](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L127)
+[lib/utils/interfaces.ts:127](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L127)
 
 ---
 
@@ -627,7 +627,7 @@ Array containing the product code
 
 #### Source
 
-[lib/utils/interfaces.ts:129](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L129)
+[lib/utils/interfaces.ts:129](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L129)
 
 ---
 
@@ -637,7 +637,7 @@ Array containing the product code
 
 #### Source
 
-[lib/utils/interfaces.ts:131](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L131)
+[lib/utils/interfaces.ts:131](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L131)
 
 ---
 
@@ -647,7 +647,7 @@ Array containing the product code
 
 #### Source
 
-[lib/utils/interfaces.ts:133](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L133)
+[lib/utils/interfaces.ts:133](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L133)
 
 ---
 
@@ -659,7 +659,7 @@ the url path of the game on the eShop website - does not include domain \*
 
 #### Source
 
-[lib/utils/interfaces.ts:136](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L136)
+[lib/utils/interfaces.ts:136](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L136)
 
 ---
 
@@ -669,7 +669,7 @@ the url path of the game on the eShop website - does not include domain \*
 
 #### Source
 
-[lib/utils/interfaces.ts:138](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L138)
+[lib/utils/interfaces.ts:138](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L138)
 
 ---
 
@@ -679,7 +679,7 @@ the url path of the game on the eShop website - does not include domain \*
 
 #### Source
 
-[lib/utils/interfaces.ts:140](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L140)
+[lib/utils/interfaces.ts:140](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L140)
 
 ---
 
@@ -689,7 +689,7 @@ the url path of the game on the eShop website - does not include domain \*
 
 #### Source
 
-[lib/utils/interfaces.ts:142](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L142)
+[lib/utils/interfaces.ts:142](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L142)
 
 ---
 

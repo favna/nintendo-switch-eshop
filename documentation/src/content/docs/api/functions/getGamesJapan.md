@@ -17,7 +17,7 @@ Promise containing all the games
 
 ## Source
 
-[lib/getGames/getGamesJapan.ts:15](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/getGames/getGamesJapan.ts#L15)
+[lib/getGames/getGamesJapan.ts:15](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/getGames/getGamesJapan.ts#L15)
 
 ---
 

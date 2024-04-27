@@ -15,7 +15,7 @@ Whether the amount of hits is exhaustive or not
 
 #### Source
 
-[lib/utils/interfaces.ts:165](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L165)
+[lib/utils/interfaces.ts:165](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L165)
 
 ---
 
@@ -27,7 +27,7 @@ The hits for this query
 
 #### Source
 
-[lib/utils/interfaces.ts:168](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L168)
+[lib/utils/interfaces.ts:168](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L168)
 
 ---
 
@@ -39,7 +39,7 @@ The amount of hits per page
 
 #### Source
 
-[lib/utils/interfaces.ts:171](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L171)
+[lib/utils/interfaces.ts:171](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L171)
 
 ---
 
@@ -51,7 +51,7 @@ The amount of hits
 
 #### Source
 
-[lib/utils/interfaces.ts:174](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L174)
+[lib/utils/interfaces.ts:174](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L174)
 
 ---
 
@@ -63,7 +63,7 @@ The amount of pages available
 
 #### Source
 
-[lib/utils/interfaces.ts:177](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L177)
+[lib/utils/interfaces.ts:177](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L177)
 
 ---
 
@@ -75,7 +75,7 @@ The page that the result is on
 
 #### Source
 
-[lib/utils/interfaces.ts:180](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L180)
+[lib/utils/interfaces.ts:180](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L180)
 
 ---
 
@@ -87,7 +87,7 @@ The params that were used
 
 #### Source
 
-[lib/utils/interfaces.ts:183](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L183)
+[lib/utils/interfaces.ts:183](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L183)
 
 ---
 
@@ -99,7 +99,7 @@ The amount of time it took the [nintendo.com](https://www.nintendo.com) API to p
 
 #### Source
 
-[lib/utils/interfaces.ts:186](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L186)
+[lib/utils/interfaces.ts:186](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L186)
 
 ---
 
@@ -111,7 +111,7 @@ The query that was used
 
 #### Source
 
-[lib/utils/interfaces.ts:189](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L189)
+[lib/utils/interfaces.ts:189](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L189)
 
 ---
 

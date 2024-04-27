@@ -15,7 +15,7 @@ Identifiers about the availability of this game.
 
 #### Source
 
-[lib/utils/interfaces.ts:439](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L439)
+[lib/utils/interfaces.ts:439](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L439)
 
 ---
 
@@ -27,7 +27,7 @@ The boxart of this title, if this is an eShop game then it is the homescreen ico
 
 #### Source
 
-[lib/utils/interfaces.ts:442](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L442)
+[lib/utils/interfaces.ts:442](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L442)
 
 ---
 
@@ -39,7 +39,7 @@ A longer description about this title
 
 #### Source
 
-[lib/utils/interfaces.ts:445](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L445)
+[lib/utils/interfaces.ts:445](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L445)
 
 ---
 
@@ -51,7 +51,7 @@ The studios that developed this gamme
 
 #### Source
 
-[lib/utils/interfaces.ts:448](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L448)
+[lib/utils/interfaces.ts:448](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L448)
 
 ---
 
@@ -63,7 +63,7 @@ An array of ESRB descriptions such as `"Alcohol Reference"` and `"Violence"`
 
 #### Source
 
-[lib/utils/interfaces.ts:451](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L451)
+[lib/utils/interfaces.ts:451](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L451)
 
 ---
 
@@ -75,7 +75,7 @@ The [ESRB](https://www.esrb.org) rating this game was given
 
 #### Source
 
-[lib/utils/interfaces.ts:454](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L454)
+[lib/utils/interfaces.ts:454](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L454)
 
 ---
 
@@ -87,7 +87,7 @@ Whether this game is featured on [https://nintendo.com](https://nintendo.com)'s 
 
 #### Source
 
-[lib/utils/interfaces.ts:457](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L457)
+[lib/utils/interfaces.ts:457](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L457)
 
 ---
 
@@ -99,7 +99,7 @@ The franches this game is part of
 
 #### Source
 
-[lib/utils/interfaces.ts:460](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L460)
+[lib/utils/interfaces.ts:460](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L460)
 
 ---
 
@@ -111,7 +111,7 @@ Whether this game is free to start and only needs payment later
 
 #### Source
 
-[lib/utils/interfaces.ts:463](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L463)
+[lib/utils/interfaces.ts:463](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L463)
 
 ---
 
@@ -123,7 +123,7 @@ Qualifiers that could be used to find this game when applying filters on [https:
 
 #### Source
 
-[lib/utils/interfaces.ts:466](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L466)
+[lib/utils/interfaces.ts:466](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L466)
 
 ---
 
@@ -135,7 +135,7 @@ The genres this this game is part of
 
 #### Source
 
-[lib/utils/interfaces.ts:469](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L469)
+[lib/utils/interfaces.ts:469](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L469)
 
 ---
 
@@ -147,7 +147,7 @@ A larger header image
 
 #### Source
 
-[lib/utils/interfaces.ts:472](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L472)
+[lib/utils/interfaces.ts:472](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L472)
 
 ---
 
@@ -159,7 +159,7 @@ A list of ways this game can be purchased
 
 #### Source
 
-[lib/utils/interfaces.ts:475](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L475)
+[lib/utils/interfaces.ts:475](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L475)
 
 ---
 
@@ -171,7 +171,7 @@ Unix timestamp when this entry was last edited on the API
 
 #### Source
 
-[lib/utils/interfaces.ts:478](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L478)
+[lib/utils/interfaces.ts:478](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L478)
 
 ---
 
@@ -183,7 +183,7 @@ The lowest price this game was ever available for.
 
 #### Source
 
-[lib/utils/interfaces.ts:481](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L481)
+[lib/utils/interfaces.ts:481](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L481)
 
 ---
 
@@ -195,7 +195,7 @@ The [Manufacturer's Suggested Retail Price](https://en.wikipedia.org/wiki/List_p
 
 #### Source
 
-[lib/utils/interfaces.ts:484](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L484)
+[lib/utils/interfaces.ts:484](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L484)
 
 ---
 
@@ -207,7 +207,7 @@ The [Manufacturer's Suggested Retail Price](https://en.wikipedia.org/wiki/List_p
 
 #### Source
 
-[lib/utils/interfaces.ts:487](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L487)
+[lib/utils/interfaces.ts:487](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L487)
 
 ---
 
@@ -219,7 +219,7 @@ The amount of players this game supports. This is a string because Nintendo is m
 
 #### Source
 
-[lib/utils/interfaces.ts:490](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L490)
+[lib/utils/interfaces.ts:490](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L490)
 
 ---
 
@@ -231,7 +231,7 @@ The internal ID that Nintendo has assigned to this game in their API. This doesn
 
 #### Source
 
-[lib/utils/interfaces.ts:493](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L493)
+[lib/utils/interfaces.ts:493](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L493)
 
 ---
 
@@ -243,7 +243,7 @@ The platform on which this game was released
 
 #### Source
 
-[lib/utils/interfaces.ts:496](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L496)
+[lib/utils/interfaces.ts:496](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L496)
 
 ---
 
@@ -255,7 +255,7 @@ Qualifiers that could be used to find this game when applying player filters on 
 
 #### Source
 
-[lib/utils/interfaces.ts:499](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L499)
+[lib/utils/interfaces.ts:499](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L499)
 
 ---
 
@@ -267,7 +267,7 @@ The predefined price range in which this game falls, can be used when applying f
 
 #### Source
 
-[lib/utils/interfaces.ts:502](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L502)
+[lib/utils/interfaces.ts:502](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L502)
 
 ---
 
@@ -279,7 +279,7 @@ The studios that published this game
 
 #### Source
 
-[lib/utils/interfaces.ts:505](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L505)
+[lib/utils/interfaces.ts:505](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L505)
 
 ---
 
@@ -291,7 +291,7 @@ The date this game was released in the [ISO 8601 Extended Format](https://en.wik
 
 #### Source
 
-[lib/utils/interfaces.ts:508](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L508)
+[lib/utils/interfaces.ts:508](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L508)
 
 ---
 
@@ -303,7 +303,7 @@ The price for this game when it is on sale. This is `null` when the game is _not
 
 #### Source
 
-[lib/utils/interfaces.ts:511](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L511)
+[lib/utils/interfaces.ts:511](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L511)
 
 ---
 
@@ -315,7 +315,7 @@ Game URL name
 
 #### Source
 
-[lib/utils/interfaces.ts:514](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L514)
+[lib/utils/interfaces.ts:514](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L514)
 
 ---
 
@@ -327,7 +327,7 @@ The title of the game
 
 #### Source
 
-[lib/utils/interfaces.ts:517](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L517)
+[lib/utils/interfaces.ts:517](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L517)
 
 ---
 
@@ -339,7 +339,7 @@ The URL to the game on [https://nintendo.com](https://nintendo.com). Prepend `ht
 
 #### Source
 
-[lib/utils/interfaces.ts:520](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/interfaces.ts#L520)
+[lib/utils/interfaces.ts:520](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/interfaces.ts#L520)
 
 ---
 

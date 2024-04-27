@@ -11,7 +11,7 @@ New URL for getting Queried US Games
 
 ## Source
 
-[lib/utils/constants.ts:17](https://github.com/favna/nintendo-switch-eshop/blob/7e1c1df147b1f9067aea692f9d4dd56664ae35c8/src/lib/utils/constants.ts#L17)
+[lib/utils/constants.ts:17](https://github.com/favna/nintendo-switch-eshop/blob/27355e779102b48fc082af549592453043b2ac6e/src/lib/utils/constants.ts#L17)
 
 ---
 
