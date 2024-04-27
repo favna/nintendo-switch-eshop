@@ -1,0 +1,5 @@
+name = "favware"
+account_id = "17bc033357e9cbc300aea6d9664a0571"
+workers_dev = true
+
+compatibility_date = "2024-04-27"
