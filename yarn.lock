@@ -2764,13 +2764,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jspm/core@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "@jspm/core@npm:2.0.1"
-  checksum: 10/663abbcedfd20eab4574095b37ade1aeff820dde45a8d67026a5f1215ba675d303042008a79fc296c0b56bb3ce15647367cea136a152ede450ac626e82be6b8f
-  languageName: node
-  linkType: hard
-
 "@mdx-js/mdx@npm:^3.0.0":
   version: 3.0.1
   resolution: "@mdx-js/mdx@npm:3.0.1"
@@ -5548,19 +5541,6 @@ __metadata:
     is-date-object: "npm:^1.0.1"
     is-symbol: "npm:^1.0.2"
   checksum: 10/74aeeefe2714cf99bb40cab7ce3012d74e1e2c1bd60d0a913b467b269edde6e176ca644b5ba03a5b865fb044a29bca05671cd445c85ca2cdc2de155d7fc8fe9b
-  languageName: node
-  linkType: hard
-
-"esbuild-plugins-node-modules-polyfill@npm:^1.6.3":
-  version: 1.6.3
-  resolution: "esbuild-plugins-node-modules-polyfill@npm:1.6.3"
-  dependencies:
-    "@jspm/core": "npm:^2.0.1"
-    local-pkg: "npm:^0.5.0"
-    resolve.exports: "npm:^2.0.2"
-  peerDependencies:
-    esbuild: ^0.14.0 || ^0.15.0 || ^0.16.0 || ^0.17.0 || ^0.18.0 || ^0.19.0 || ^0.20.0
-  checksum: 10/0ff3032b26e689bf02d2c68428df11e2d540473969f3f5994e8696da54389bf10bd2dcd4ce6fb32faa7eca44b1364b9fe240018a27cbfb6e98f4a6adc6fb901c
   languageName: node
   linkType: hard
 
@@ -9537,7 +9517,6 @@ __metadata:
     common-tags: "npm:^1.8.2"
     country-data: "npm:^0.0.31"
     cz-conventional-changelog: "npm:^3.3.0"
-    esbuild-plugins-node-modules-polyfill: "npm:^1.6.3"
     eslint: "npm:^8.57.0"
     eslint-config-prettier: "npm:^9.1.0"
     eslint-plugin-prettier: "npm:^5.1.3"

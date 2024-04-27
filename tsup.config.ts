@@ -1,4 +1,3 @@
-import { nodeModulesPolyfillPlugin } from 'esbuild-plugins-node-modules-polyfill';
 import { defineConfig, type Options } from 'tsup';
 
 const baseOptions: Options = {
@@ -10,8 +9,7 @@ const baseOptions: Options = {
 	target: 'es2020',
 	tsconfig: 'src/tsconfig.json',
 	keepNames: true,
-	treeshake: true,
-	esbuildPlugins: [nodeModulesPolyfillPlugin()]
+	treeshake: true
 };
 
 export default [

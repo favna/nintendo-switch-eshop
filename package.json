@@ -29,7 +29,7 @@
 	"scripts": {
 		"test": "vitest run",
 		"lint": "eslint src tests --ext mjs,js,ts,tsx --fix",
-		"typecheck": "tsc -p tsconfig.eslint.json && tsc -p documentation/tsconfig.json",
+		"typecheck": "tsc -p tsconfig.eslint.json",
 		"build": "tsup && yarn build:rename-cjs-index",
 		"build:rename-cjs-index": "node scripts/rename-cjs-index.mjs",
 		"bump": "cliff-jumper",
@@ -56,7 +56,6 @@
 		"@vitest/coverage-v8": "^1.5.2",
 		"common-tags": "^1.8.2",
 		"cz-conventional-changelog": "^3.3.0",
-		"esbuild-plugins-node-modules-polyfill": "^1.6.3",
 		"eslint": "^8.57.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-prettier": "^5.1.3",
