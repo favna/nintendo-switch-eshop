@@ -1,4 +1,3 @@
-// Type imports
 import type { ManifestOptions } from 'vite-plugin-pwa';
 
 const description = 'Unofficial API lib for Nintendo Switch eShop game listing and pricing information.';

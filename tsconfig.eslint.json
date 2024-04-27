@@ -6,5 +6,5 @@
 		"skipLibCheck": true,
 		"types": ["vitest/globals"]
 	},
-	"include": ["src", "tests", "scripts", "tsup.config.ts", "vitest.config.ts"]
+	"include": ["src", "tests", "documentation/src", "documentation/astro.config.mts", "scripts", "tsup.config.ts", "vitest.config.ts"]
 }
