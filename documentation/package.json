@@ -14,7 +14,6 @@
 		"@astrojs/starlight": "^0.21.5",
 		"@sapphire/docusaurus-plugin-npm2yarn2pnpm": "2.0.2",
 		"astro": "^4.3.5",
-		"sharp": "^0.32.5",
 		"starlight-typedoc": "^0.11.1",
 		"typedoc": "^0.25.13",
 		"typedoc-plugin-markdown": "4.0.0-next.43"
@@ -22,7 +21,6 @@
 	"devDependencies": {
 		"@types/react": "^18.3.1",
 		"@vite-pwa/astro": "^0.3.1",
-		"astro-compress": "^2.2.22",
 		"typescript": "^5.4.5",
 		"wrangler": "^3.52.0"
 	}
