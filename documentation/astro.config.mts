@@ -1,3 +1,4 @@
+import cloudflare from '@astrojs/cloudflare';
 import sitemap from '@astrojs/sitemap';
 import starlight from '@astrojs/starlight';
 import AstroPWA from '@vite-pwa/astro';
