@@ -1,0 +1,4 @@
+{
+	"extends": ["./tsconfig.eslint.json"],
+	"include": ["src", "tests", "scripts", "tsup.config.ts", "vitest.config.ts"]
+}

@@ -29,7 +29,7 @@
 	"scripts": {
 		"test": "vitest run",
 		"lint": "eslint src tests --ext mjs,js,ts,tsx --fix",
-		"typecheck": "tsc -p tsconfig.eslint.json",
+		"typecheck": "tsc -p tsconfig.typecheck.json",
 		"build": "tsup && yarn build:rename-cjs-index",
 		"build:rename-cjs-index": "node scripts/rename-cjs-index.mjs",
 		"bump": "cliff-jumper",
