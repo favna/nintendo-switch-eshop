@@ -7,7 +7,8 @@ import starlightTypeDoc, { typeDocSidebarGroup } from 'starlight-typedoc';
 import { manifest, seoConfig } from './src/utils/seoConfig';
 
 export default defineConfig({
-	site: seoConfig.baseURL,
+	site: 'https://favna.github.io',
+	base: 'nintendo-switch-eshop',
 	integrations: [
 		AstroPWA({
 			mode: 'production',
