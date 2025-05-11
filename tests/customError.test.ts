@@ -1,4 +1,4 @@
-import { EshopError } from '../src';
+import { EshopError } from '../src/index.js';
 
 describe('customError', () => {
 	test('Error should have custom properties', () => {

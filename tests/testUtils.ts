@@ -1,4 +1,4 @@
-import type { GameEU, GameJP, GameUS } from '../src';
+import type { GameEU, GameJP, GameUS } from '../src/index.js';
 
 export const JAPANESE_GAME: GameJP = {
 	LinkURL: '123456789123456789',
@@ -6,7 +6,8 @@ export const JAPANESE_GAME: GameJP = {
 	LinkTarget: 'sample',
 	MakerName: 'sample',
 	Memo: 'sample',
-	D: new Date().getTime(),
+	// eslint-disable-next-line id-length
+	D: Date.now(),
 	SalesDateStr: 'sample',
 	ScreenshotImgURL: 'https://example.com/HAC12345',
 	ComingThumb: 'sample',
@@ -28,7 +29,8 @@ export const JAPANESE_GAME_FAIL: GameJP = {
 	LinkTarget: 'sample',
 	MakerName: 'sample',
 	Memo: 'sample',
-	D: new Date().getTime(),
+	// eslint-disable-next-line id-length
+	D: Date.now(),
 	SalesDateStr: 'sample',
 	ScreenshotImgURL: 'https://example.com/HAC12345',
 	ComingThumb: 'sample',
@@ -55,7 +57,7 @@ export const EUROPEAN_GAME: GameEU = {
 	club_nintendo: true,
 	compatible_controller: ['Xbox', 'PS4'],
 	copyright_s: 'FOSS',
-	date_from: new Date(2017, 3),
+	date_from: new Date(2_017, 3),
 	dates_released_dts: [new Date()],
 	deprioritise_b: false,
 	developer: 'The World',
@@ -129,7 +131,7 @@ export const AMERICAN_GAME: GameUS = {
 	genres: ['Party', 'Multiplayer', 'Action'],
 	horizontalHeaderImage: '',
 	howToShop: [],
-	lastModified: 1624052460484,
+	lastModified: 1_624_052_460_484,
 	lowestPrice: 49.99,
 	msrp: 49.99,
 	nsuid: '70010000000141',

@@ -1,17 +1,17 @@
-export { getGamesAmerica } from './lib/getGames/getGamesAmerica';
-export { getGamesBrazil } from './lib/getGames/getGamesBrazil';
-export { getGamesEurope } from './lib/getGames/getGamesEurope';
-export { getGamesJapan } from './lib/getGames/getGamesJapan';
-export { getQueriedGamesAmerica } from './lib/getGames/getQueriedGamesAmerica';
-export { getQueriedGamesBrazil } from './lib/getGames/getQueriedGamesBrazil';
-export { getActiveShops } from './lib/getShops/getActiveShops';
-export { getShopsAmerica } from './lib/getShops/getShopsAmerica';
-export { getShopsAsia } from './lib/getShops/getShopsAsia';
-export { getShopsEurope } from './lib/getShops/getShopsEurope';
-export { getPrices } from './lib/other/getPrices';
-export { getShopsByCountryCodes } from './lib/other/getShopByCountryCode';
-export { parseGameCode } from './lib/other/parseGameCode';
-export { parseNSUID } from './lib/other/parseNSUID';
+export { getGamesAmerica } from './lib/getGames/getGamesAmerica.js';
+export { getGamesBrazil } from './lib/getGames/getGamesBrazil.js';
+export { getGamesEurope } from './lib/getGames/getGamesEurope.js';
+export { getGamesJapan } from './lib/getGames/getGamesJapan.js';
+export { getQueriedGamesAmerica } from './lib/getGames/getQueriedGamesAmerica.js';
+export { getQueriedGamesBrazil } from './lib/getGames/getQueriedGamesBrazil.js';
+export { getActiveShops } from './lib/getShops/getActiveShops.js';
+export { getShopsAmerica } from './lib/getShops/getShopsAmerica.js';
+export { getShopsAsia } from './lib/getShops/getShopsAsia.js';
+export { getShopsEurope } from './lib/getShops/getShopsEurope.js';
+export { getPrices } from './lib/other/getPrices.js';
+export { getShopsByCountryCodes } from './lib/other/getShopByCountryCode.js';
+export { parseGameCode } from './lib/other/parseGameCode.js';
+export { parseNSUID } from './lib/other/parseNSUID.js';
 export {
 	BR_ALGOLIA_HEADERS,
 	BR_ALGOLIA_ID,
@@ -31,7 +31,7 @@ export {
 	US_ALGOLIA_ID,
 	US_ALGOLIA_KEY,
 	US_GET_GAMES_URL
-} from './lib/utils/constants';
+} from './lib/utils/constants.js';
 export type {
 	EShop,
 	EURequestOptions,
@@ -45,5 +45,5 @@ export type {
 	QueriedGameUS,
 	QueriedGamesAmericaOptions,
 	TitleData
-} from './lib/utils/interfaces';
-export { EshopError } from './lib/utils/utils';
+} from './lib/utils/interfaces.js';
+export { EshopError } from './lib/utils/utils.js';

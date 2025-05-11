@@ -1,5 +1,5 @@
-import { parseNSUID, Region } from '../src';
-import { AMERICAN_GAME, EUROPEAN_GAME, JAPANESE_GAME, JAPANESE_GAME_FAIL } from './testUtils';
+import { parseNSUID, Region } from '../src/index.js';
+import { AMERICAN_GAME, EUROPEAN_GAME, JAPANESE_GAME, JAPANESE_GAME_FAIL } from './testUtils.js';
 
 describe('parse NSUID', () => {
 	test('Region == US', () => {

@@ -1,5 +1,5 @@
-import { parseGameCode, Region } from '../src';
-import { EUROPEAN_GAME, JAPANESE_GAME } from './testUtils';
+import { parseGameCode, Region } from '../src/index.js';
+import { EUROPEAN_GAME, JAPANESE_GAME } from './testUtils.js';
 
 describe('Success: parseGameCode', () => {
 	test('Region == ASIA', () => {

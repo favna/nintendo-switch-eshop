@@ -1,9 +1,8 @@
 /**
  * Removed duplicates from an array
  *
- * @param array The input array
- * @param property The property to check
- * @private
+ * @param array - The input array
+ * @param property - The property to check
  */
 export const arrayRemoveDuplicates = (array: any[], property: string) => {
 	const index: any[] = [];
@@ -15,11 +14,14 @@ export const arrayRemoveDuplicates = (array: any[], property: string) => {
 	});
 };
 
-/** Class representing an error in the nintendo-switch-eshop library */
+/**
+ * Class representing an error in the nintendo-switch-eshop library
+ */
 export class EshopError extends Error {
 	/**
 	 * Create an EshopError
-	 * @param message The message the error should show
+	 *
+	 * @param message - The message the error should show
 	 */
 	public constructor(message: string) {
 		super(message);

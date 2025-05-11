@@ -1,13 +1,12 @@
 /**
  * Serializes a value to a string, or returns null if it cannot be serialized.
+ *
  * @param value - The value to serialize
  * @returns The serialized value, or null if it cannot be serialized
- *
- * @license Apache-2.0
- * @copyright 2021 Noel Buechler
  * Retrieved on 2024-04-27 from https://github.com/discordjs/discord.js/blob/4ad285804bfd72b157139dde61c3fd8ac2544322/packages/rest/src/lib/utils/utils.ts#L8-L47
  */
 function serializeSearchParam(value: unknown): string | null {
+	// eslint-disable-next-line @typescript-eslint/switch-exhaustiveness-check
 	switch (typeof value) {
 		case 'string':
 			return value;
@@ -35,9 +34,6 @@ function serializeSearchParam(value: unknown): string | null {
  *
  * @param options - The options to use
  * @returns A populated URLSearchParams instance
- *
- * @license Apache-2.0
- * @copyright 2021 Noel Buechler
  * Retrieved on 2024-04-27 from https://github.com/discordjs/discord.js/blob/4ad285804bfd72b157139dde61c3fd8ac2544322/packages/rest/src/lib/utils/utils.ts#L8-L47
  */
 export function makeURLSearchParams<OptionsType extends object>(options?: Readonly<OptionsType>) {

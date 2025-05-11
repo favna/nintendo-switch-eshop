@@ -1,3 +1,4 @@
+/* eslint-disable jsdoc/check-param-names */
 import { fetch, FetchResultTypes } from '@sapphire/fetch';
 import { Result } from '@sapphire/result';
 import {
@@ -6,20 +7,20 @@ import {
 	QUERIED_US_GET_GAMES_URL_NEW,
 	QUERIED_US_GET_GAMES_URL_OLD,
 	US_ALGOLIA_HEADERS
-} from '../utils/constants';
-import type { QueriedGameResult, QueriedGamesAmericaOptions, QueriedGameUS } from '../utils/interfaces';
-import { EshopError } from '../utils/utils';
+} from '../utils/constants.js';
+import type { QueriedGameResult, QueriedGamesAmericaOptions, QueriedGameUS } from '../utils/interfaces.js';
+import { EshopError } from '../utils/utils.js';
 
 /**
  * Fetches a subset of games from the American e-shops as based on a given query
- * @param query The query to search for
- * @param __namedParameters Additional options for the [[getQueriedGamesAmerica]] call. Defaults to `{ hitsPerPage: 200, page: 0 }`
+ *
+ * @param query - The query to search for
+ * @param options - Additional options for the {@link getQueriedGamesAmerica} call. Defaults to `{ hitsPerPage: 200, page: 0 }`
  * @returns Promise containing the first `hitsPerPage` games that match your query
- * @license Apache-2.0 Jeroen Claassens & Aura Román
- * @copyright 2021
  */
 export async function getQueriedGamesAmerica(
 	query: string,
+	// eslint-disable-next-line unicorn/no-object-as-default-parameter
 	{ hitsPerPage = 200, page = 0 }: QueriedGamesAmericaOptions = { hitsPerPage: 200, page: 0 }
 ): Promise<QueriedGameUS[]> {
 	const newGamesResult = await Result.fromAsync(
@@ -41,7 +42,7 @@ export async function getQueriedGamesAmerica(
 		)
 	);
 
-	if (newGamesResult.isErr() || newGamesResult.isOkAnd((v) => v.hits.length === 0)) {
+	if (newGamesResult.isErr() || newGamesResult.isOkAnd((gameResult) => gameResult.hits.length === 0)) {
 		throw new EshopError(`No game results for the query "${query}"`);
 	}
 
@@ -64,7 +65,7 @@ export async function getQueriedGamesAmerica(
 		)
 	);
 
-	if (oldGamesResult.isErr() || oldGamesResult.isOkAnd((v) => v.hits.length === 0)) {
+	if (oldGamesResult.isErr() || oldGamesResult.isOkAnd((gameResult) => gameResult.hits.length === 0)) {
 		throw new EshopError(`No game results for the query "${query}"`);
 	}
 

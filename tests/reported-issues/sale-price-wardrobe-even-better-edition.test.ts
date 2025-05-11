@@ -1,4 +1,4 @@
-import { getQueriedGamesAmerica } from '../../src';
+import { getQueriedGamesAmerica } from '../../src/index.js';
 
 describe('Sale price for The Wardrobe Even Better Edition', () => {
 	test('GIVEN query THEN returns results with a sale price', async () => {

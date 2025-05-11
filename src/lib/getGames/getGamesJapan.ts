@@ -1,9 +1,9 @@
 import { fetch, FetchResultTypes } from '@sapphire/fetch';
 import { Result } from '@sapphire/result';
 import { XMLParser } from 'fast-xml-parser';
-import { JP_GET_GAMES_URL } from '../utils/constants';
-import type { GameJP } from '../utils/interfaces';
-import { EshopError } from '../utils/utils';
+import { JP_GET_GAMES_URL } from '../utils/constants.js';
+import type { GameJP } from '../utils/interfaces.js';
+import { EshopError } from '../utils/utils.js';
 
 const parser = new XMLParser();
 

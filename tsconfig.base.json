@@ -2,6 +2,7 @@
 	"extends": ["@sapphire/ts-config", "@sapphire/ts-config/extra-strict", "@sapphire/ts-config/verbatim"],
 	"compilerOptions": {
 		"lib": ["ESNext", "DOM"],
-		"skipLibCheck": true
+		"skipLibCheck": true,
+		"incremental": false
 	}
 }

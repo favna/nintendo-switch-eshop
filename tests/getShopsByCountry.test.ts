@@ -1,6 +1,6 @@
 import { lookup } from 'country-data';
-import { getShopsByCountryCodes, Region } from '../src';
-import { US_GAME_CHECK_CODE } from '../src/lib/utils/constants';
+import { getShopsByCountryCodes, Region } from '../src/index.js';
+import { US_GAME_CHECK_CODE } from '../src/lib/utils/constants.js';
 
 describe('getShopsByCountry', () => {
 	test('Success Case', async () => {

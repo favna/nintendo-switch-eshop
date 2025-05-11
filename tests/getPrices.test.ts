@@ -1,5 +1,5 @@
-import { getPrices } from '../src';
-import { PRICE_LIST_LIMIT, US_GAME_CHECK_CODE } from '../src/lib/utils/constants';
+import { getPrices } from '../src/index.js';
+import { PRICE_LIST_LIMIT, US_GAME_CHECK_CODE } from '../src/lib/utils/constants.js';
 
 describe('getPrices', () => {
 	test('getPrices', async () => {
@@ -10,7 +10,7 @@ describe('getPrices', () => {
 				{
 					regular_price: { amount: '$39.99', currency: 'USD', raw_value: '39.99' },
 					sales_status: 'onsale',
-					title_id: 70010000000185
+					title_id: 70_010_000_000_185
 				}
 			]
 		};

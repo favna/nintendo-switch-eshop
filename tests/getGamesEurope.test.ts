@@ -1,4 +1,4 @@
-import { getGamesEurope } from '../src';
+import { getGamesEurope } from '../src/index.js';
 
 test('getGamesEurope', async () => {
 	const data = await getGamesEurope({ locale: 'en', limit: 1 });

@@ -1,5 +1,5 @@
 import type { Country } from 'country-data';
-import type { Region } from './constants';
+import type { Region } from './constants.js';
 
 export interface GameEU {
 	_version_: number;
@@ -68,7 +68,9 @@ export interface GameEU {
 
 	near_field_comm_b: boolean;
 
-	/** Array containing the 14-digit game unique identifier */
+	/**
+	 * Array containing the 14-digit game unique identifier
+	 */
 	nsuid_txt: string[];
 
 	originally_for_t: string;
@@ -113,7 +115,9 @@ export interface GameEU {
 
 	product_code_ss: string[];
 
-	/** Array containing the product code */
+	/**
+	 * Array containing the product code
+	 */
 	product_code_txt: string[];
 
 	publisher: string;
@@ -132,7 +136,9 @@ export interface GameEU {
 
 	type: string;
 
-	/** the url path of the game on the eShop website - does not include domain **/
+	/**
+	 * the url path of the game on the eShop website - does not include domain
+	 */
 	url: string;
 
 	wishlist_email_banner460w_image_url_s: string;
@@ -142,64 +148,94 @@ export interface GameEU {
 	wishlist_email_square_image_url_s: string;
 }
 
-/** Additional options for the [[getQueriedGamesAmerica]] method  */
+/**
+ * Additional options for the [[getQueriedGamesAmerica]] method
+ */
 export interface QueriedGamesAmericaOptions {
 	/**
 	 * The amount of hits to be received per page
-	 * @minimum 0
-	 * @maximum 200
-	 * @default 200
+	 *
+	 * - minimum: 0
+	 * - maximum: 200
+	 * - default: 200
 	 */
 	hitsPerPage?: number;
 
 	/**
 	 * The page number to get
-	 * @minimum 0
-	 * @default 0
+	 *
+	 * - minimum: 0
+	 * - default: 0
 	 */
 	page?: number;
 }
 
 export interface QueriedGameResult {
-	/** Whether the amount of hits is exhaustive or not */
+	/**
+	 * Whether the amount of hits is exhaustive or not
+	 */
 	exhaustiveNbHits: true;
 
-	/** The hits for this query */
+	/**
+	 * The hits for this query
+	 */
 	hits: QueriedGameUS[];
 
-	/** The amount of hits per page */
+	/**
+	 * The amount of hits per page
+	 */
 	hitsPerPage: number;
 
-	/** The amount of hits */
+	/**
+	 * The amount of hits
+	 */
 	nbHits: number;
 
-	/** The amount of pages available */
+	/**
+	 * The amount of pages available
+	 */
 	nbPages: number;
 
-	/** The page that the result is on */
+	/**
+	 * The page that the result is on
+	 */
 	page: number;
 
-	/** The params that were used */
+	/**
+	 * The params that were used
+	 */
 	params: string;
 
-	/** The amount of time it took the {@link https://www.nintendo.com nintendo.com} API to process this request */
+	/**
+	 * The amount of time it took the {@link https://www.nintendo.com | nintendo.com} API to process this request
+	 */
 	processingTimeMS: number;
 
-	/** The query that was used */
+	/**
+	 * The query that was used
+	 */
 	query: string;
 }
 
 export interface QueriedGameUS {
-	/** Additional information returned by the API, it doesn't really serve any purpose but documenting it anyway because it's there. */
+	/**
+	 * Additional information returned by the API, it doesn't really serve any purpose but documenting it anyway because it's there.
+	 */
 	_distinctSeqID: number;
 
-	/** Additional information returned by the API, it doesn't really serve any purpose but documenting it anyway because it's there. */
+	/**
+	 * Additional information returned by the API, it doesn't really serve any purpose but documenting it anyway because it's there.
+	 */
 	_highlightResult: HighlightResult;
 
-	/** Whether this game is available or not */
+	/**
+	 * Whether this game is available or not
+	 */
 	availability: string[];
 
-	/** The box art of the game, if any. Generally undefined for games that are yet to release. */
+	/**
+	 * The box art of the game, if any. Generally undefined for games that are yet to release.
+	 */
 	boxart?: string;
 
 	classindDescriptors?: unknown | null;
@@ -218,76 +254,121 @@ export interface QueriedGameUS {
 
 	depth?: number;
 
-	/** A description about this game */
+	/**
+	 * A description about this game
+	 */
 	description: string;
 
-	/** A list of companies that developed this game */
+	/**
+	 * A list of companies that developed this game
+	 */
 	developers: string[];
 
-	/** A list of {@link https://www.esrb.org/ratings-guide/ ESRB descriptors} */
+	/**
+	 * A list of {@link https://www.esrb.org/ratings-guide/ | ESRB descriptors}
+	 */
 	esrbDescriptors: string[];
 
-	/** The {@link https://www.esrb.org/ratings-guide/ ESRB Rating} */
+	/**
+	 * The {@link https://www.esrb.org/ratings-guide/ | ESRB Rating}
+	 */
 	esrbRating: string;
 
 	exclusive: boolean;
 
-	/** Whether this game is featured on the {@link https://www.nintendo.com nintendo.com} homepage */
+	/**
+	 * Whether this game is featured on the {@link https://www.nintendo.com | nintendo.com} homepage
+	 */
 	featured: boolean;
 
-	/** Whether this game is featured on the {@link https://www.nintendo.com nintendo.com} homepage */
+	/**
+	 * Whether this game is featured on the {@link https://www.nintendo.com | nintendo.com} homepage
+	 */
 	featuredProduct: boolean;
 
-	/** The franchises this game is a part of */
+	/**
+	 * The franchises this game is a part of
+	 */
 	franchises: string;
 
-	/** Whether this game is free to start */
+	/**
+	 * Whether this game is free to start
+	 */
 	freeToStart: boolean;
 
-	/** A list of general filters that could potentially be searched on {@link https://www.nintendo.com nintendo.com} to find this game with */
+	/**
+	 * A list of general filters that could potentially be searched on {@link https://www.nintendo.com | nintendo.com} to find this game with
+	 */
 	generalFilters: string[];
 
-	/**  A list of genres this game */
+	/**
+	 *  A list of genres this game
+	 */
 	genres: string[];
 
-	/** Whether this game has downloadable content or not */
+	/**
+	 * Whether this game has downloadable content or not
+	 */
 	hasDlc: boolean;
 
-	/** A large wide image such as a screenshot or artwork of the game, if any. */
+	/**
+	 * A large wide image such as a screenshot or artwork of the game, if any.
+	 */
 	headerImage?: string;
 
-	/** The asset slug of a large wide image such as a screenshot or artwork of the game, if any. */
+	/**
+	 * The asset slug of a large wide image such as a screenshot or artwork of the game, if any.
+	 */
 	horizontalHeaderImage?: string;
 
-	/** A list of methods through which the game can be acquired, such as retail or digital download. */
+	/**
+	 * A list of methods through which the game can be acquired, such as retail or digital download.
+	 */
 	howToShop: string[];
 
-	/** A Unix timestamp in **milliseconds** indicating when the information on this game was last modified */
+	/**
+	 * A Unix timestamp in **milliseconds** indicating when the information on this game was last modified
+	 */
 	lastModified: number;
 
-	/** The lowest price at which this game was ever sold */
+	/**
+	 * The lowest price at which this game was ever sold
+	 */
 	lowestPrice: number;
 
-	/** The {@link https://en.wikipedia.org/wiki/List_price manufacturer's suggested retail price} for this game */
+	/**
+	 * The {@link https://en.wikipedia.org/wiki/List_price | manufacturer's suggested retail price} for this game
+	 */
 	msrp: number;
 
-	/** Features that added to this game when the player has a Nintendo Switch Online subscription */
+	/**
+	 * Features that added to this game when the player has a Nintendo Switch Online subscription
+	 */
 	nsoFeatures: string[];
 
-	/** The unique ID for this game. */
+	/**
+	 * The unique ID for this game.
+	 */
 	nsuid: string;
 
-	/** The amount of players that can simultaneously play this game */
+	/**
+	 * The amount of players that can simultaneously play this game
+	 */
 	numOfPlayers: string;
 
-	/** A unique {@link https://en.wikipedia.org/wiki/Universally_unique_identifier GUID} that represents this game's entry in the Nintendo API.  */
+	/**
+	 * A unique {@link https://en.wikipedia.org/wiki/Universally_unique_identifier | GUID} that represents this game's entry in the Nintendo API.
+	 */
 	objectID: string;
 
-	/** The platform this game released on */
+	/**
+	 * The platform this game released on
+	 */
 	platform: string;
 
 	/**
 	 * A unique identifier of the platform the game was released on
+	 *
 	 * @example 'NINTENDO_SWITCH'
 	 */
 	platformCode: string;
@@ -295,72 +376,95 @@ export interface QueriedGameUS {
 	platinumPoints?: any;
 
 	/**
-	 * The amount of players that can simultaniously play this game
-	 * @example 'Single Player'
-	 */
-	playerCount: string;
-
-	/** A list of player filters that could potentially be searched on {@link https://www.nintendo.com nintendo.com} to find this game with */
-	playerFilters: string[];
-
-	/**
 	 * An array of ways this game can be played
+	 *
 	 * @example ['TV mode', 'Tabletop mode', 'Handheld mode']
 	 */
 	playModes: string[];
 
-	/** The price information for this game */
+	/**
+	 * The amount of players that can simultaniously play this game
+	 *
+	 * @example 'Single Player'
+	 */
+	playerCount: string;
+
+	/**
+	 * A list of player filters that could potentially be searched on {@link https://www.nintendo.com | nintendo.com} to find this game with
+	 */
+	playerFilters: string[];
+
+	/**
+	 * The price information for this game
+	 */
 	price: {
-		/** The regular price for this game */
-		regPrice: number;
 		/**
 		 * The final price for this game,
 		 * which is {@link QueriedGameUS.price.salePrice} if the game is on sale or {@link QueriedGameUS.price.regPrice} if it is not.
 		 */
 		finalPrice: number;
 		/**
+		 * The regular price for this game
+		 */
+		regPrice: number;
+		/**
 		 * The sale price for this game, or `null` if the game has never been on sale.
 		 */
 		salePrice: number | null;
 	};
 
-	/** A category price range that this game falls under. Can be used on {@link https://www.nintendo.com nintendo.com} to find this game with */
+	/**
+	 * A category price range that this game falls under. Can be used on {@link https://www.nintendo.com | nintendo.com} to find this game with
+	 */
 	priceRange: string;
 
 	priority?: number;
 
-	/** The slug to a product image of this game */
+	/**
+	 * The slug to a product image of this game
+	 */
 	productImage: string;
 
-	/** The date this game was published */
+	/**
+	 * The date this game was published
+	 */
 	publishDate?: Date;
 
-	/** A list of companies that published this game */
+	/**
+	 * A list of companies that published this game
+	 */
 	publishers: string[];
 
 	/**
 	 * A display of the release of this game. Can be either an ISO timestamp or some other representation of date.
-	 * @remark Nintendo has a tendency to also have entries such as `Early 2022` or `Late 2021` here. Normally these kinds of dates would not be parsed by JavaScript, but NodeJS does parse these natural input types.
+	 *
+	 * Nintendo has a tendency to also have entries such as `Early 2022` or `Late 2021` here. Normally these kinds of dates would not be parsed by JavaScript, but NodeJS does parse these natural input types.
 	 */
 	releaseDateDisplay: string;
 
-	/** The price of this game if and when it is on sale */
+	/**
+	 * The price of this game if and when it is on sale
+	 */
 	salePrice: number | null;
 
-	/** the SKU ID for this game  */
+	/**
+	 * the SKU ID for this game
+	 */
 	sku: string;
 
-	/** A unique {@link https://en.wikipedia.org/wiki/Clean_URL#Slug slug} for this game */
+	/**
+	 * A unique {@link https://en.wikipedia.org/wiki/Clean_URL#Slug | slug} for this game
+	 */
 	slug: string;
 
 	/**
-	 * The SMEC ({@link https://en.wikipedia.org/wiki/Video_game_content_rating_system#Mexico Sistema Mexicano de Equivalencias de Clasificación})
+	 * The SMEC ({@link https://en.wikipedia.org/wiki/Video_game_content_rating_system#Mexico | Sistema Mexicano de Equivalencias de Clasificación})
 	 * descriptors for this game
 	 */
 	smecDescriptors: string[];
 
 	/**
-	 * The SMEC ({@link https://en.wikipedia.org/wiki/Video_game_content_rating_system#Mexico Sistema Mexicano de Equivalencias de Clasificación})
+	 * The SMEC ({@link https://en.wikipedia.org/wiki/Video_game_content_rating_system#Mexico | Sistema Mexicano de Equivalencias de Clasificación})
 	 * rating for this game
 	 */
 	smecRating: string;
@@ -375,26 +479,33 @@ export interface QueriedGameUS {
 	 */
 	softwarePublisher: string;
 
-	/** The title of this game */
+	/**
+	 * The title of this game
+	 */
 	title: string;
 
 	/**
 	 * The top level category of this game
+	 *
 	 * @example 'Games'
 	 */
 	topLevelCategory: string;
 
 	/**
 	 * The top level category code of this game
+	 *
 	 * @example 'GAMES'
 	 */
 	topLevelCategoryCode: string;
 
-	/** The top level filters for this game */
+	/**
+	 * The top level filters for this game
+	 */
 	topLevelFilters: string[];
 
 	/**
 	 * The type of search result
+	 *
 	 * @example 'game'
 	 */
 	type: string;
@@ -404,7 +515,9 @@ export interface QueriedGameUS {
 	 */
 	updatedAt: string;
 
-	/** A unique to the information about this game. Prefix it with `https://www.nintendo.com` to have a valid URL. */
+	/**
+	 * A unique to the information about this game. Prefix it with {@link https://www.nintendo.com | nintendo.com} to have a valid URL.
+	 */
 	url: string;
 
 	/**
@@ -412,7 +525,9 @@ export interface QueriedGameUS {
 	 */
 	urlKey: string;
 
-	/** Whether this game is visible when searching for it on https://www.nintendo.com */
+	/**
+	 * Whether this game is visible when searching for it on {@link https://www.nintendo.com | nintendo.com}
+	 */
 	visibleInSearch: boolean;
 }
 
@@ -427,106 +542,166 @@ export interface HighlightResult {
 export interface Nsuid {
 	fullyHighlighted?: boolean;
 
-	matchedWords: string[];
-
 	matchLevel: string;
+
+	matchedWords: string[];
 
 	value: string;
 }
 
 export interface GameUS {
-	/** Identifiers about the availability of this game. */
+	/**
+	 * Identifiers about the availability of this game.
+	 */
 	availability: string[];
 
-	/** The boxart of this title, if this is an eShop game then it is the homescreen icon */
+	/**
+	 * The boxart of this title, if this is an eShop game then it is the homescreen icon
+	 */
 	boxart: string;
 
-	/** A longer description about this title */
+	/**
+	 * A longer description about this title
+	 */
 	description: string;
 
-	/** The studios that developed this gamme */
+	/**
+	 * The studios that developed this gamme
+	 */
 	developers: string[];
 
-	/** An array of ESRB descriptions such as `"Alcohol Reference"` and `"Violence"` */
+	/**
+	 * An array of ESRB descriptions such as `"Alcohol Reference"` and `"Violence"`
+	 */
 	esrbDescriptors: string[];
 
-	/** The {@linkplain https://www.esrb.org ESRB} rating this game was given */
+	/**
+	 * The {@link https://www.esrb.org | ESRB} rating this game was given
+	 */
 	esrbRating: string;
 
-	/** Whether this game is featured on {@linkplain https://nintendo.com}'s homepage */
+	/**
+	 * Whether this game is featured on {@link https://www.nintendo.com | nintendo.com}'s homepage
+	 */
 	featured: boolean;
 
-	/** The franches this game is part of */
+	/**
+	 * The franchises this game is part of
+	 */
 	franchises: string[];
 
-	/** Whether this game is free to start and only needs payment later */
+	/**
+	 * Whether this game is free to start and only needs payment later
+	 */
 	freeToStart: boolean;
 
-	/** Qualifiers that could be used to find this game when applying filters on {@linkplain https://nintendo.com} */
+	/**
+	 * Qualifiers that could be used to find this game when applying filters on {@link https://www.nintendo.com | nintendo.com}
+	 */
 	generalFilters: string[];
 
-	/** The genres this this game is part of */
+	/**
+	 * The genres this this game is part of
+	 */
 	genres: string[];
 
-	/** A larger header image */
+	/**
+	 * A larger header image
+	 */
 	horizontalHeaderImage: string;
 
-	/** A list of ways this game can be purchased */
+	/**
+	 * A list of ways this game can be purchased
+	 */
 	howToShop: string[];
 
-	/** Unix timestamp when this entry was last edited on the API */
+	/**
+	 * Unix timestamp when this entry was last edited on the API
+	 */
 	lastModified: number;
 
-	/** The lowest price this game was ever available for. */
+	/**
+	 * The lowest price this game was ever available for.
+	 */
 	lowestPrice: number;
 
-	/** The {@linkplain https://en.wikipedia.org/wiki/List_price Manufacturer's Suggested Retail Price} for this game (in United States Dollars). */
+	/**
+	 * The {@link https://en.wikipedia.org/wiki/List_price | Manufacturer's Suggested Retail Price} for this game (in United States Dollars).
+	 */
 	msrp: number;
 
-	/** 14-digit game unique identifier */
+	/**
+	 * 14-digit game unique identifier
+	 */
 	nsuid: string;
 
-	/** The amount of players this game supports. This is a string because Nintendo is more verbose than just a number. */
+	/**
+	 * The amount of players this game supports. This is a string because Nintendo is more verbose than just a number.
+	 */
 	numOfPlayers: string;
 
-	/** The internal ID that Nintendo has assigned to this game in their API. This doesn't really serve any use. */
+	/**
+	 * The internal ID that Nintendo has assigned to this game in their API. This doesn't really serve any use.
+	 */
 	objectID: string;
 
-	/** The platform on which this game was released */
+	/**
+	 * The platform on which this game was released
+	 */
 	platform: string;
 
-	/** Qualifiers that could be used to find this game when applying player filters on {@linkplain https://nintendo.com}  */
+	/**
+	 * Qualifiers that could be used to find this game when applying player filters on {@link https://www.nintendo.com | nintendo.com}
+	 */
 	playerFilters: string[];
 
-	/** The predefined price range in which this game falls, can be used when applying filters on {@linkplain https://nintendo.com} */
+	/**
+	 * The predefined price range in which this game falls, can be used when applying filters on {@link https://www.nintendo.com | nintendo.com}
+	 */
 	priceRange: string;
 
-	/** The studios that published this game */
+	/**
+	 * The studios that published this game
+	 */
 	publishers: string[];
 
-	/** The date this game was released in the {@linkplain https://en.wikipedia.org/wiki/ISO_8601 ISO 8601 Extended Format}  */
+	/**
+	 * The date this game was released in the {@link https://en.wikipedia.org/wiki/ISO_8601 | ISO 8601 Extended Format}
+	 */
 	releaseDateDisplay: string;
 
-	/** The price for this game when it is on sale. This is `null` when the game is _not_ on sale. */
+	/**
+	 * The price for this game when it is on sale. This is `null` when the game is _not_ on sale.
+	 */
 	salePrice: number | null;
 
-	/** Game URL name */
+	/**
+	 * Game URL name
+	 */
 	slug: string;
 
-	/** The title of the game */
+	/**
+	 * The title of the game
+	 */
 	title: string;
 
-	/** The URL to the game on {@linkplain https://nintendo.com}. Prepend `https://nintend.com` to this URL to get a fully qualified URL to the game. */
+	/**
+	 * The URL to the game on {@link https://www.nintendo.com | nintendo.com}. Prepend {@link https://www.nintendo.com | nintendo.com} to this URL to get a fully qualified URL to the game.
+	 */
 	url: string;
 }
 
-/** @internal */
+/**
+ * @internal
+ */
 interface AlgoliaResults<T extends GameUS | QueriedGameUS> {
 	exhaustiveFacetsCount: boolean;
 
 	exhaustiveNbHits: boolean;
 
-	/** Filters for the search query */
+	/**
+	 * Filters for the search query
+	 */
 	facetFilters: string[][];
 
 	facets: {
@@ -535,15 +710,21 @@ interface AlgoliaResults<T extends GameUS | QueriedGameUS> {
 		};
 	};
 
-	/** The games found */
+	/**
+	 * The games found
+	 */
 	hits: T[];
 
-	/** Number of hits per page */
+	/**
+	 * Number of hits per page
+	 */
 	hitsPerPage: number;
 
 	index: string;
 
-	/** Total number of hits with current query */
+	/**
+	 * Total number of hits with current query
+	 */
 	nbHits: number;
 
 	nbPages: number;
@@ -557,25 +738,33 @@ interface AlgoliaResults<T extends GameUS | QueriedGameUS> {
 	query: string;
 }
 
-/** @internal */
+/**
+ * @internal
+ */
 export interface AlgoliaResponse {
 	results: AlgoliaResults<GameUS>[];
 }
 
-export interface GameJP extends Record<string, string | number | undefined> {
-	ComingThumb: 'yes' | string;
+export interface GameJP extends Record<string, number | string | undefined> {
+	ComingThumb: string | 'yes';
 
 	D: number;
 
 	Hard: string;
 
-	/** The game code for the game */
+	/**
+	 * The game code for the game
+	 */
 	InitialCode: string;
 
-	/** The Link Target, if it exists */
+	/**
+	 * The Link Target, if it exists
+	 */
 	LinkTarget: string;
 
-	/** The game url */
+	/**
+	 * The game url
+	 */
 	LinkURL: string;
 
 	MakerKana: string;
@@ -590,21 +779,31 @@ export interface GameJP extends Record<string, string | number | undefined> {
 
 	SalesDate: string;
 
-	/** The type of screenshot, if it exists */
+	/**
+	 * The type of screenshot, if it exists
+	 */
 	ScreenshotImgFlg: number;
 
-	/** The screenshot URL, if it exists */
+	/**
+	 * The screenshot URL, if it exists
+	 */
 	ScreenshotImgURL: string;
 
 	SoftType: string;
 
-	/** The variation of the thumbnail */
+	/**
+	 * The variation of the thumbnail
+	 */
 	ThumbVariation: string;
 
-	/** The game's title */
+	/**
+	 * The game's title
+	 */
 	TitleName: string;
 
-	/** The title name in Asian characters */
+	/**
+	 * The title name in Asian characters
+	 */
 	TitleNameRuby: string;
 }
 
@@ -638,14 +837,18 @@ export interface TitleData {
 	title_id: number;
 }
 
-/** @internal */
+/**
+ * @internal
+ */
 interface PriceError {
 	code: string;
 
 	message: string;
 }
 
-/** @internal */
+/**
+ * @internal
+ */
 interface PriceData {
 	amount: string;
 
@@ -658,17 +861,22 @@ interface PriceData {
 	start_datetime?: string;
 }
 
-/** @internal */
+/**
+ * @internal
+ */
 interface RequestOptions {
 	/**
 	 * Game count limit (Can only be lower than default page size).
 	 *
 	 * @remarks
-	 * On the US eshop, the max limit is 100. Leave empty to get all the games. */
+	 * On the US eshop, the max limit is 100. Leave empty to get all the games.
+	 */
 	limit?: number;
 }
 
 export interface EURequestOptions extends RequestOptions {
-	/** Game information locale. (EU Only) */
+	/**
+	 * Game information locale. (EU Only)
+	 */
 	locale?: string;
 }

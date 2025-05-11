@@ -1,14 +1,23 @@
 import { fetch, FetchResultTypes } from '@sapphire/fetch';
 import { Result } from '@sapphire/result';
-import { BR_ALGOLIA_HEADERS, BR_GET_GAMES_URL } from '../utils/constants';
-import type { AlgoliaResponse, GameUS } from '../utils/interfaces';
-import { arrayRemoveDuplicates, EshopError } from '../utils/utils';
-import { makeURLSearchParams } from '../utils/makeURLSearchParams';
+import {
+	BR_AVAILABILITY_FILTER,
+	BR_COMMON_GAME_FRANCHISES,
+	BR_ESRB_RATINGS_FILTERS,
+	BR_FACETS,
+	BR_GAME_LIST_LIMIT,
+	BR_INDEX_TITLE_ASC,
+	BR_INDEX_TITLE_DESC,
+	BR_PLATFORM_FACET_FILTER
+} from '../utils/brazilian-constants.js';
+import { BR_ALGOLIA_HEADERS, BR_GET_GAMES_URL } from '../utils/constants.js';
+import type { AlgoliaResponse, GameUS } from '../utils/interfaces.js';
+import { makeURLSearchParams } from '../utils/makeURLSearchParams.js';
+import { arrayRemoveDuplicates, EshopError } from '../utils/utils.js';
 
 /**
  * Fetches all games on brazilian e-shop
  *
- * @remarks
  * Currently ONLY returns all games in the e-shop
  *
  * @returns Promise containing all the games
@@ -93,53 +102,9 @@ interface Request {
 }
 
 interface ParamsObject {
+	analytics: boolean;
+	facetFilters: string;
+	facets: string;
 	hitsPerPage: number;
 	page: number;
-	analytics: boolean;
-	facets: string;
-	facetFilters: string;
 }
-
-/** @internal The maximum number of entries that Nintendo lets us get in 1 request for US games */
-const BR_GAME_LIST_LIMIT = 499;
-
-/** @internal Index names for querying all games by ascending title */
-const BR_INDEX_TITLE_ASC = 'ncom_game_pt_br_title_asc';
-
-/** @internal Index names for querying all games by descending title */
-const BR_INDEX_TITLE_DESC = 'ncom_game_pt_br_title_des';
-
-/** @internal Static query parameters for facets/filters in US Algolia calls */
-const BR_FACETS = JSON.stringify([
-	'generalFilters',
-	'platform',
-	'availability',
-	'genres',
-	'howToShop',
-	'virtualConsole',
-	'franchises',
-	'priceRange',
-	'esrbRating',
-	'playerFilters'
-]);
-
-/** @internal */
-const BR_PLATFORM_FACET_FILTER = 'platform:Nintendo Switch';
-
-/** @internal ESRB options for querying all games in one request */
-const BR_ESRB_RATINGS_FILTERS = [
-	'esrbRating:Livre',
-	'esrbRating:10',
-	'esrbRating:12',
-	'esrbRating:14',
-	'esrbRating:16',
-	'esrbRating:18',
-	'esrbRating:Check the rating',
-	'esrbRating:L'
-];
-
-/** @internal Availability filters for querying all games in one request */
-const BR_AVAILABILITY_FILTER = ['availability:Pre-order', 'availability:Coming soon', 'availability:Available now', 'availability:New releases'];
-
-/** @internal Common franchises for querying all games in one request */
-const BR_COMMON_GAME_FRANCHISES = ['franchises:Mario', 'franchises:Zelda', 'franchises:Pokémon', 'franchises:Kirby'];

@@ -4,7 +4,8 @@
 
 ## nintendo-switch-eshop
 
-**A Node.JS lib written to extract Nintendo Switch's eShop game and pricing information**
+**A Node.JS lib written to extract Nintendo Switch's eShop game and pricing
+information**
 
 [![GitHub](https://img.shields.io/github/license/favna/nintendo-switch-eshop?logo=github&style=flat-square)](https://github.com/favna/nintendo-switch-eshop/blob/main/LICENSE)
 [![npm](https://img.shields.io/npm/v/nintendo-switch-eshop?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/nintendo-switch-eshop)
@@ -26,16 +27,27 @@ npm install nintendo-switch-eshop
 Require your desired functions:
 
 ```javascript
-const { getGamesAmerica, getGamesEurope, getGamesJapan, getQueriedGamesAmerica } = require('nintendo-switch-eshop');
+const {
+	getGamesAmerica,
+	getGamesEurope,
+	getGamesJapan,
+	getQueriedGamesAmerica
+} = require('nintendo-switch-eshop');
 ```
 
 Or with ES6 imports:
 
 ```javascript
-import { getGamesAmerica, getGamesEurope, getGamesJapan, getQueriedGamesAmerica } from 'nintendo-switch-eshop';
+import {
+	getGamesAmerica,
+	getGamesEurope,
+	getGamesJapan,
+	getQueriedGamesAmerica
+} from 'nintendo-switch-eshop';
 ```
 
-**For calling functions with the correct parameters and syntax please refer to the documentation linked below**
+**For calling functions with the correct parameters and syntax please refer to
+the documentation linked below**
 
 Copyright © `2021` `favna` & `lmmfranco`
 
@@ -45,7 +57,8 @@ For the documentation go to https://nintendo-switch-eshop.pages.dev
 
 ## Contributors
 
-Please make sure to read the [Contributing Guide][contributing] before making a pull request.
+Please make sure to read the [Contributing Guide][contributing] before making a
+pull request.
 
 Thank you to all the people who already contributed to Sapphire!
 

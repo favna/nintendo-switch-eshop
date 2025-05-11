@@ -1,15 +1,15 @@
-import { EU_GAME_CODE_REGEX, JP_GAME_CODE_REGEX, Region } from '../utils/constants';
-import type { GameEU, GameJP, GameUS } from '../utils/interfaces';
-import { EshopError } from '../utils/utils';
+import { EU_GAME_CODE_REGEX, JP_GAME_CODE_REGEX, Region } from '../utils/constants.js';
+import type { GameEU, GameJP, GameUS } from '../utils/interfaces.js';
+import { EshopError } from '../utils/utils.js';
 
 /**
  * Parses the game code to extract the cross-region portion.
  *
- * @param game The game object returned from one of the other methods.
- * @param region Region code
+ * @param game - The game object returned from one of the other methods.
+ * @param region - Region code
  * @returns The 4-digit resulting game code
  */
-export function parseGameCode(game: GameUS | GameEU | GameJP, region: Region): string | null {
+export function parseGameCode(game: GameEU | GameJP | GameUS, region: Region): string | null {
 	let codeParse: RegExpExecArray | null;
 
 	switch (region) {

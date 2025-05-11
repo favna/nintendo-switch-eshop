@@ -1,4 +1,4 @@
-import { getQueriedGamesAmerica } from '../src';
+import { getQueriedGamesAmerica } from '../src/index.js';
 
 describe('getQueriedGamesAmerica', () => {
 	test('GIVEN Zelda THEN returns results with some known games', async () => {
