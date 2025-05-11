@@ -7,5 +7,5 @@ identifierBase: false
 pushTag: true
 githubRelease: true
 githubReleaseLatest: true
-gitRepo: auto
+gitRepo: favna/nintendo-switch-eshop
 gitHostVariant: github
