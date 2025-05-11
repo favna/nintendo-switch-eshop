@@ -1,10 +1,4 @@
 {
-	"extends": ["./tsconfig.base.json"],
-	"compilerOptions": {
-		"allowJs": true,
-		"checkJs": true,
-		"skipLibCheck": true,
-		"types": ["vitest/globals"]
-	},
-	"include": ["src", "tests", "documentation/src", "documentation/astro.config.mts", "scripts", "tsup.config.ts", "vitest.config.ts"]
+	"extends": "./tsconfig.base.json",
+	"include": ["src", "scripts"]
 }

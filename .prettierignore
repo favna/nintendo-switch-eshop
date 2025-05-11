@@ -1,5 +1,4 @@
-# Node modules
-node_modules/
-
-# Generated data
-documentation/src/content/api/
+CHANGELOG.md
+dist/
+coverage/
+.yarn/

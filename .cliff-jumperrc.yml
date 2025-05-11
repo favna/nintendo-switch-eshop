@@ -1,3 +1,11 @@
 name: nintendo-switch-eshop
 packagePath: .
 commitMessageTemplate: 'chore(release): release {{new-version}}'
+monoRepo: false
+tagTemplate: v{{new-version}}
+identifierBase: false
+pushTag: true
+githubRelease: true
+githubReleaseLatest: true
+gitRepo: auto
+gitHostVariant: github

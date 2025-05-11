@@ -8,9 +8,7 @@ export default {
 		{
 			files: ['README.md', 'documentation/docs/Guide/**/*.mdx', 'documentation/docs/Welcome.mdx'],
 			options: {
-				tabWidth: 2,
-				useTabs: false,
-				printWidth: 120,
+				printWidth: 80,
 				proseWrap: 'always'
 			}
 		},

@@ -7,56 +7,24 @@ on:
   pull_request:
 
 jobs:
-  Linting:
-    name: Running ESLint
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Project
-        uses: actions/checkout@v4
-      - name: Add problem matcher
-        run: echo "::add-matcher::.github/problemMatchers/eslint.json"
-      - name: Use Node.js v20
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20
-          cache: yarn
-      - name: Install Dependencies
-        run: yarn --immutable
-      - name: Run ESLint
-        run: yarn lint --fix=false
+  lint:
+    name: Linting
+    uses: sapphiredev/.github/.github/workflows/reusable-lint.yml@main
 
-  Building:
-    name: Compile source code
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Project
-        uses: actions/checkout@v4
-      - name: Add problem matcher
-        run: echo "::add-matcher::.github/problemMatchers/tsc.json"
-      - name: Use Node.js v20
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20
-          cache: yarn
-      - name: Install Dependencies
-        run: yarn --immutable
-      - name: Typecheck code
-        run: yarn typecheck
-      - name: Build Code
-        run: yarn build
+  build:
+    name: Building
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [18, 19, 20, 21]
+    uses: sapphiredev/.github/.github/workflows/reusable-build.yml@main
+    with:
+      node-version: ${{ matrix.node }}
 
-  Testing:
+  codeql:
+    name: Analysis
+    uses: sapphiredev/.github/.github/workflows/reusable-codeql.yml@main
+
+  test:
     name: Unit Tests
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Project
-        uses: actions/checkout@v4
-      - name: Use Node.js v20
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20
-          cache: yarn
-      - name: Install Dependencies
-        run: yarn --immutable
-      - name: Test
-        run: yarn test
+    uses: sapphiredev/.github/.github/workflows/reusable-tests.yml@main
