@@ -1,5 +1,5 @@
 name: Publish
-run-name: Publish @favware/npm-deprecate
+run-name: Publish nintendo-switch-eshop
 
 on:
   workflow_dispatch:
@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   PublishPackage:
-    name: Publish @favware/npm-deprecate
+    name: Publish nintendo-switch-eshop
     runs-on: ubuntu-latest
     if: github.repository_owner == 'favware'
     steps:
