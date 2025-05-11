@@ -13,7 +13,7 @@ jobs:
   PublishPackage:
     name: Publish nintendo-switch-eshop
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'favware'
+    if: github.repository_owner == 'favna'
     steps:
       - name: Checkout Project
         uses: actions/checkout@v4
