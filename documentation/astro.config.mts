@@ -457,10 +457,18 @@ export default defineConfig({
 				alt: 'logo'
 			},
 			title: 'Switch eShop API Wrapper',
-			social: {
-				github: 'https://github.com/favna/nintendo-switch-eshop',
-				twitter: 'https://twitter.com/favna_'
-			},
+			social: [
+				{
+					icon: 'github',
+					label: 'GitHub',
+					href: 'https://github.com/favna/nintendo-switch-eshop'
+				},
+				{
+					icon: 'twitter',
+					label: 'Twitter',
+					href: 'https://twitter.com/favna_'
+				}
+			],
 			sidebar: [typeDocSidebarGroup],
 			plugins: [
 				// Generate the documentation.
@@ -469,7 +477,7 @@ export default defineConfig({
 					tsconfig: '../src/tsconfig.json',
 					pagination: true,
 					sidebar: {
-						label: 'Documenation'
+						label: 'Documentation'
 					},
 					typeDoc: {
 						readme: './src/assets/readme.md',
