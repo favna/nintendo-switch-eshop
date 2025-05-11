@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
-Sitemap: https://nintendo-switch-eshop.pages.dev/sitemap.xml
+Sitemap: https://favna.github.io/nintendo-switch-eshop//sitemap.xml
 User-agent: *
 Disallow:

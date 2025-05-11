@@ -8,7 +8,7 @@ const title = 'Nintendo Switch Eshop API';
  * Defines the default SEO configuration for the website.
  */
 export const seoConfig = {
-	baseURL: 'https://nintendo-switch-eshop.pages.dev',
+	baseURL: 'https://favna.github.io/nintendo-switch-eshop',
 	description,
 	email,
 	type: 'website',

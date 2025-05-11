@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://www.npmjs.com/package/nintendo-switch-eshop"><img src="https://nintendo-switch-eshop.pages.dev/nintendoeshop.png" height="100" alt="logo"/></a>
+<a href="https://www.npmjs.com/package/nintendo-switch-eshop"><img src="https://favna.github.io/nintendo-switch-eshop//nintendoeshop.png" height="100" alt="logo"/></a>
 
 ## nintendo-switch-eshop
 
@@ -53,7 +53,7 @@ Copyright © `2021` `favna` & `lmmfranco`
 
 ## Documentation
 
-For the documentation go to https://nintendo-switch-eshop.pages.dev
+For the documentation go to https://favna.github.io/nintendo-switch-eshop/
 
 ## Contributors
 
