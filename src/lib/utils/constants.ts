@@ -51,7 +51,7 @@ export const EU_GET_GAMES_OPTIONS = {
 };
 
 /** URL for getting EU Games */
-export const EU_GET_GAMES_URL = 'http://search.nintendo-europe.com/{locale}/select';
+export const EU_GET_GAMES_URL = 'https://search.nintendo-europe.com/{locale}/select';
 
 /**
  * Sample game code for EU store
@@ -72,10 +72,10 @@ export const EU_GAME_CODE_REGEX = /HAC\w(\w{4})/;
 export const EU_DEFAULT_LOCALE = 'en';
 
 /**
- * Default limit used when getting EU games - defaults to `9999`
+ * Default limit used when getting EU games - defaults to `1000`
  * @internal
  */
-export const EU_GAME_LIST_LIMIT = 9999;
+export const EU_GAME_LIST_LIMIT = 1000;
 
 /** URL for getting JP Games */
 export const JP_GET_GAMES_URL = 'https://www.nintendo.co.jp/data/software/xml/switch.xml';
