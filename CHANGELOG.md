@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+# [8.0.1](https://github.com/favna/nintendo-switch-eshop/compare/v8.0.0...v8.0.1) - (2025-05-11)
+
+## 🏠 Refactor
+
+- Update linting and formatting of repo ([977c038](https://github.com/favna/nintendo-switch-eshop/commit/977c038fb9374bc80b613873350fecd8b6474e12))
+
+## 🐛 Bug Fixes
+
+- Resolve issues with EU api ([a8b3c79](https://github.com/favna/nintendo-switch-eshop/commit/a8b3c79890840cff20b8b8e5a2761002e6422442))
+
+## 📝 Documentation
+
+- Fix astro base url ([89931ed](https://github.com/favna/nintendo-switch-eshop/commit/89931ed8aaf288110e30fb13668bed1d9b20330d))
+- Fix astro base url ([dfe2e37](https://github.com/favna/nintendo-switch-eshop/commit/dfe2e3724d395847a8c343b5a2bbdb825f101681))
+- Update url to new page ([03e4a00](https://github.com/favna/nintendo-switch-eshop/commit/03e4a00567d4de3ba74a1663de2428d5c9a93276))
+- Add workflow to publish the docs ([1d938c1](https://github.com/favna/nintendo-switch-eshop/commit/1d938c1dd1377d5b90d87e8af89606bd6b2ff534))
+- Resolve issues with astro docs ([d84c97e](https://github.com/favna/nintendo-switch-eshop/commit/d84c97e25736afd3c0f56f09eee61eb9fe056259))
+
 # [8.0.0](https://github.com/favna/nintendo-switch-eshop/compare/v7.1.3...v8.0.0) - (2024-04-29)
 
 ## 🏠 Refactor
