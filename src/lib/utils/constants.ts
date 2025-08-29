@@ -35,20 +35,6 @@ export const QUERIED_US_GET_GAMES_URL_NEW = `https://${US_ALGOLIA_ID}-dsn.algoli
 export const QUERIED_US_GET_GAMES_URL_OLD = `https://${US_ALGOLIA_ID}-dsn.algolia.net/1/indexes/ncom_game_en_us/query`;
 
 /**
- * Sample game code for US store
- *
- * @internal
- */
-export const US_GAME_CHECK_CODE = '70010000000185';
-
-/**
- * Regex for US game codes
- *
- * @internal
- */
-export const US_GAME_CODE_REGEX = /HAC\w(\w{4})/;
-
-/**
  * Request headers for US games
  *
  *  @internal
@@ -60,63 +46,11 @@ export const US_ALGOLIA_HEADERS = {
 };
 
 /**
- * Options used for getting EU games
- *
- * @internal
- */
-export const EU_GET_GAMES_OPTIONS = {
-	fq: 'type:GAME AND system_type:nintendoswitch* AND product_code_txt:*',
-	// eslint-disable-next-line id-length
-	q: '*',
-	sort: 'sorting_title asc',
-	start: '0',
-	wt: 'json'
-};
-
-/**
- * URL for getting EU Games
- */
-export const EU_GET_GAMES_URL = 'https://search.nintendo-europe.com/{locale}/select';
-
-/**
- * Sample game code for EU store
- *
- * @internal
- */
-export const EU_GAME_CHECK_CODE = '70010000000184';
-
-/**
  * Regex for EU game codes
  *
  * @internal
  */
 export const EU_GAME_CODE_REGEX = /HAC\w(\w{4})/;
-
-/**
- * Default locale when getting EU games - defaults to `en`
- *
- * @internal
- */
-export const EU_DEFAULT_LOCALE = 'en';
-
-/**
- * Default limit used when getting EU games - defaults to `1000`
- *
- * @internal
- */
-export const EU_GAME_LIST_LIMIT = 1_000;
-
-/**
- * URL for getting JP Games
- */
-export const JP_GET_GAMES_URL = 'https://www.nintendo.co.jp/data/software/xml/switch.xml';
-
-/**
- * Sample game code for JP store
- *
- * @internal
- */
-export const JP_GAME_CHECK_CODE = '70010000000039';
 
 /**
  * Regex for JP game codes
@@ -167,25 +101,6 @@ export const BR_ALGOLIA_HEADERS = {
 	'X-Algolia-API-Key': BR_ALGOLIA_KEY,
 	'X-Algolia-Application-Id': BR_ALGOLIA_ID
 };
-
-/**
- * URL for getting game prices
- */
-export const PRICE_GET_URL = 'https://api.ec.nintendo.com/v1/price';
-
-/**
- * Options for getting Price data
- *
- * @internal
- */
-export const PRICE_GET_OPTIONS = { lang: 'en' };
-
-/**
- * Default limit used when getting price data - defaults to `50`
- *
- * @internal
- */
-export const PRICE_LIST_LIMIT = 50;
 
 /**
  * Predefined options for the unit system

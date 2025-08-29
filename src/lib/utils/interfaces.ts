@@ -1,6 +1,3 @@
-import type { Country } from 'country-data';
-import type { Region } from './constants.js';
-
 export interface GameEU {
 	_version_: number;
 
@@ -805,78 +802,4 @@ export interface GameJP extends Record<string, number | string | undefined> {
 	 * The title name in Asian characters
 	 */
 	TitleNameRuby: string;
-}
-
-export interface EShop {
-	code: string;
-
-	country: string;
-
-	currency: string;
-
-	region: Region;
-}
-
-export interface PriceResponse {
-	country: Country;
-
-	error: PriceError;
-
-	personalized: boolean;
-
-	prices: TitleData[];
-}
-
-export interface TitleData {
-	discount_price?: PriceData;
-
-	regular_price: PriceData;
-
-	sales_status: string;
-
-	title_id: number;
-}
-
-/**
- * @internal
- */
-interface PriceError {
-	code: string;
-
-	message: string;
-}
-
-/**
- * @internal
- */
-interface PriceData {
-	amount: string;
-
-	currency: string;
-
-	end_datetime?: string;
-
-	raw_value: string;
-
-	start_datetime?: string;
-}
-
-/**
- * @internal
- */
-interface RequestOptions {
-	/**
-	 * Game count limit (Can only be lower than default page size).
-	 *
-	 * @remarks
-	 * On the US eshop, the max limit is 100. Leave empty to get all the games.
-	 */
-	limit?: number;
-}
-
-export interface EURequestOptions extends RequestOptions {
-	/**
-	 * Game information locale. (EU Only)
-	 */
-	locale?: string;
 }
