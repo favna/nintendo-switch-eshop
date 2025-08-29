@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [9.0.0](https://github.com/favna/nintendo-switch-eshop/compare/v8.0.1...v9.0.0) - (2025-08-29)
+
+## 🐛 Bug Fixes
+
+- Remove no longer supported functions ([efa5cde](https://github.com/favna/nintendo-switch-eshop/commit/efa5cde1cadf8aa51fd1dafd43acffe25010cdc8))
+  - 💥 **BREAKING CHANGE:** Nintendo has changed authentication for various endpoints, making several functions impossible to be used anymore. The functions removed are `getGamesEurope`, `getGamesJapan`, `getActiveShops`, `getShopsAmerica`, `getShopsAsia`, `getShopEurope`, `getPrices`, and `getShopByCountryCode`.
+
 # [8.0.1](https://github.com/favna/nintendo-switch-eshop/compare/v8.0.0...v8.0.1) - (2025-05-11)
 
 ## 🏠 Refactor
